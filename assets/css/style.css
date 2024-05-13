@@ -18,6 +18,13 @@ body {
 header {
     background-color: rgb(152, 181, 161);
     color: rgb(247,247,240);
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 2px 4px rgb(110, 127, 115);
+}
+
+nav {
+    
 }
 
 #logo {
