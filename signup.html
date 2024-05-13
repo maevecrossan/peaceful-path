@@ -32,8 +32,26 @@
                 <br>
                 You can also sign up for updates regarding our services, event announcements and new mindfulness guides as they become available.</p>
 
-                <form id="signup-form">
-                    main
+                <form id="signup-form" action="form-feedback.html#signup-form" method="GET">
+                    <label for="first-name" class="input-label">First Name</label>
+                    <br>
+                    <input type="text" id="first-name" class="text-input" name="first-name" required>
+                    <br>
+
+                    <label for="last-name" class="input-label">Last Name</label>
+                    <br>
+                    <input type="text" id="last-name" class="text-input" name="last-name" required>
+                    <br>
+
+                    <label for="email-address" class="input-label">Email Address</label>
+                    <br>
+                    <input type="email" id="email-address" class="text-input" name="email-address" required>
+                    <br>
+                
+                    <label for="updates" class="input-label">Check this box for updates and announcements!</label>
+                    <input type="checkbox" id="updates" class="update-checkbox" name="updates">
+                    <br>
+                    <button type="submit" class="download-button">Submit and download</button>
                 </form>
             </div>
         </section>
