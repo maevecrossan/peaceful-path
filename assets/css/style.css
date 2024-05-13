@@ -21,19 +21,57 @@ header {
     position: fixed;
     width: 100%;
     box-shadow: 0 2px 4px rgb(110, 127, 115);
+
 }
 
+main {
+    margin: 47px 0 0 0;
+    background-color: rgb(66, 84, 72);
+    flex: 1 0 auto;
+}
+
+footer {
+    background-color: yellow;
+}
+
+/* Mobile Menu */
 nav {
-    
+    top: 100%;
+    width: 100%;
+    position: absolute;
+    display: none;
+    background-color: rgb(152, 181, 161);
+    box-shadow: 0 2px 4px rgb(110, 127, 115);
 }
 
-#logo {
-    font-family: 'Oswald', Helvetica, sans-serif;
-}
 
 header a {
     text-decoration: none;
     color: inherit;
+}
+
+/* Mobile Menu Toggle */
+#nav-toggle {
+    display: none;
+    position: absolute;
+}
+
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+.nav-toggle-label {
+    color: rgb(247,247,240);
+    position: absolute;
+    right: 14px;
+    top: 8px;
+    font-size: 27px;
+}
+
+#logo {
+    font-family: 'Oswald', Helvetica, sans-serif;
+    letter-spacing: 2px;
+    margin-left: 5px;
 }
 
 #slogan {
@@ -41,11 +79,4 @@ header a {
     color: rgb(247,247,240);
 }
 
-main {
-    background-color: orange;
-    flex: 1 0 auto;
-}
 
-footer {
-    background-color: yellow;
-}
