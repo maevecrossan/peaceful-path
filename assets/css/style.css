@@ -7,15 +7,25 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    font-family: 'Roboto', Helvetica, sans-serif;
 }
 
 
 header {
     background-color: pink;
+}
+
+#logo {
+    font-family: 'Oswald', Helvetica, sans-serif;
+}
+
+#slogan {
+    font-family: 'Raleway', Helvetica, sans-serif;
 }
 
 main {
