@@ -63,7 +63,7 @@ header a {
 
 #slogan {
     font-family: 'Raleway', Helvetica, sans-serif;
-    color: rgb(247,247,240);
+    color: rgb(247, 247, 240);
     text-transform: uppercase;
     background-color: rgba(85, 105, 81, 0.6);
     width: 80%;
@@ -73,6 +73,15 @@ header a {
 }
 
 /* Homepage Intro Section*/ 
+#welcome, #where-to-start {
+    background-color: rgb(247, 247, 240);
+    color: rgb(85, 105, 91)
+}
+
+#ethos {
+    background-color: rgb(85, 105, 91);
+    color: rgb(247, 247, 240);
+}
 
 /* Mobile Menu Toggle */
 #nav-toggle {
