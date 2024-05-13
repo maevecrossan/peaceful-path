@@ -30,8 +30,15 @@ main {
     flex: 1 0 auto;
 }
 
-footer {
-    background-color: yellow;
+/* Footer */
+#social-media {
+    background-color: rgb(152, 181, 161);
+    color: rgb(247,247,240);
+}
+
+#social-media a {
+    text-decoration: none;
+    color: inherit;
 }
 
 /* Mobile Menu */
@@ -75,7 +82,7 @@ header a {
 /* Homepage Intro Section*/ 
 #welcome, #where-to-start {
     background-color: rgb(247, 247, 240);
-    color: rgb(85, 105, 91)
+    color: rgb(85, 105, 91);
 }
 
 #ethos {
