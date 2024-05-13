@@ -15,17 +15,23 @@ body {
     font-family: 'Roboto', Helvetica, sans-serif;
 }
 
-
 header {
-    background-color: pink;
+    background-color: rgb(152, 181, 161);
+    color: rgb(247,247,240);
 }
 
 #logo {
     font-family: 'Oswald', Helvetica, sans-serif;
 }
 
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
 #slogan {
     font-family: 'Raleway', Helvetica, sans-serif;
+    color: rgb(247,247,240);
 }
 
 main {
