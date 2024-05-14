@@ -30,6 +30,10 @@ main {
     flex: 1 0 auto;
 }
 
+ul {
+    list-style-type: none;
+}
+
 /* Footer */
 #social-media {
     background-color: rgb(152, 181, 161);
@@ -85,8 +89,8 @@ header a {
 
 /* Homepage Intro Section*/ 
 
-#introduction { 
-    margin: 15px 30px;
+#introduction, #what-is-mindfulness { 
+    margin: 15px 25px;
 }
 
 #welcome, #ethos, #where-to-start {
@@ -94,31 +98,55 @@ header a {
     text-align: center;
 }
 
-#welcome, #where-to-start {
+.white-bg {
     background-color: rgb(247, 247, 240);
     color: rgb(85, 105, 91);
-    
 }
 
-#ethos {
+.green-bg {
     background-color: rgb(85, 105, 91);
     color: rgb(247, 247, 240);
 }
 
-#welcome h2, #where-to-start h2 {
+#welcome h2, #where-to-start h2, #explanation-intro h2, #signup-container h3{
     border-bottom: 2px solid rgb(85, 105, 91);
     padding: 8px;
+    text-align: center;
 }
 
-#ethos h2 {
+#ethos h2, #explanation-intro h2 {
     border-bottom: 2px solid rgb(247, 247, 240);
     padding: 8px;
+    text-align: center;
 }
 
-#welcome p, #ethos p, #where-to-start p {
+#welcome p, #ethos p, #where-to-start p, #explanation-intro p, #signup-container p {
     margin: 8px 8px 10px 8px;
     padding: 4px 4px 10px 4px;
+    font-size: 105%;
+    text-align: center;
 }
+
+/* Explanation Page - Benefits*/
+#benefits {
+    padding: 4px 4px 10px 4px;
+    font-size: 105%;
+}
+
+#benefits h3 {
+    text-align: center;
+    padding: 5px 3px 7px 3px;
+    border-bottom: 1px solid rgb(85, 105, 91);
+}
+
+#benefits-list {
+    margin: 5px 4px 7px 4px;
+    margin: 8px 8px 10px 8px;
+}
+
+/* Sign up Page */
+
+
 
 /* Mobile Menu Toggle */
 #nav-toggle {
