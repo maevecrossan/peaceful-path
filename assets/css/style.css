@@ -229,7 +229,7 @@ header a {
 .page-divider {
     text-align: center;
     color: rgb(247, 247, 240);
-    margin: 5px;
+    padding: 10px;
 }
 
 #fb-button-container {
