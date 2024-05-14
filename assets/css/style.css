@@ -21,7 +21,6 @@ header {
     position: fixed;
     width: 100%;
     box-shadow: 0 2px 4px rgb(110, 127, 115);
-
 }
 
 main {
@@ -220,4 +219,9 @@ header a {
     font-family: 'Oswald', Helvetica, sans-serif;
     letter-spacing: 2px;
     margin-left: 5px;
+}
+
+.page-divider {
+    text-align: center;
+    color: rgb(247, 247, 240);
 }
