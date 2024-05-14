@@ -89,6 +89,7 @@ header a {
     padding: 30px 10px;
     margin-top: 200px;
     font-size: 2rem;
+    border-radius: 4px;
 }
 
 /* Homepage Intro Section*/ 
@@ -100,6 +101,11 @@ header a {
 #welcome, #ethos, #where-to-start {
     margin-top: 15px;
     text-align: center;
+    border-radius: 4px;
+}
+
+#explanation-intro, #benefits, #pre-signup, #signup-form {
+    border-radius: 4px;
 }
 
 .white-bg {
