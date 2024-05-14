@@ -191,10 +191,10 @@ header a {
 /* Form Feedback Page */
     #form-feedback-message {
         text-align: center;
-        margin: 15px 25px;
-        padding: 7px 7px 7px 7px;
+        margin: 90px 25px 90px 25px;
+        padding: 20px 10px 20px 10px;
         font-size: 1.5em;
-
+        border-radius: 4px;
     }
 
 /* Mobile Menu Toggle */
