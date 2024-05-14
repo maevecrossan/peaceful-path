@@ -112,12 +112,14 @@ header a {
     border-bottom: 2px solid rgb(85, 105, 91);
     padding: 8px;
     text-align: center;
+    font-size: 1.5em;
 }
 
 #ethos h2, #explanation-intro h2 {
     border-bottom: 2px solid rgb(247, 247, 240);
     padding: 8px;
     text-align: center;
+    font-size: 1.5em;
 }
 
 #welcome p, #ethos p, #where-to-start p, #explanation-intro p, #signup-container p {
@@ -125,6 +127,7 @@ header a {
     padding: 4px 4px 10px 4px;
     font-size: 105%;
     text-align: center;
+    font-size: 105%;
 }
 
 /* Explanation Page - Benefits*/
@@ -137,6 +140,7 @@ header a {
     text-align: center;
     padding: 5px 3px 7px 3px;
     border-bottom: 1px solid rgb(85, 105, 91);
+    font-size: 1.2em;
 }
 
 #benefits-list {
@@ -148,6 +152,42 @@ header a {
     margin: 15px 25px;
 }
 
+    /* Form */
+#signup-form {
+    padding: 10px;
+    text-align: left;
+}
+
+.input-label {
+    padding: 5px;
+    font-size: 105%;
+}
+
+.text-input {
+    margin: 5px 10px 10px 5px;
+    border-radius: 4px;
+    height: 30px;
+    width: 13rem;
+    border-style: none;
+    padding: 10px;
+}
+
+#signup-form p {
+    border-bottom: 2px solid rgb(247, 247, 240);
+    text-align: center;
+    font-size: 1.2em; /* larger than <p> */
+}
+
+#form-button {
+    margin-top: 20px;
+    padding: 15px 26px;
+    border-radius: 4px;
+    background-color: rgb(247, 247, 240);
+    color: rgb(85, 105, 91);
+    font-size: 90%;
+    text-align: center;
+    border-style: none;
+}
 
 /* Mobile Menu Toggle */
 #nav-toggle {
