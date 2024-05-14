@@ -57,11 +57,16 @@ nav {
     display: none;
     background-color: rgb(152, 181, 161);
     box-shadow: 0 2px 4px rgb(110, 127, 115);
+    font-size: 1.3em;
+    padding: 5px 5px 7px 10px;
+    line-height: 35px;
+    
 }
 
 header a {
     text-decoration: none;
     color: inherit;
+    padding-bottom: 5px;
 }
 
 /* Hero & Slogan */
@@ -224,6 +229,7 @@ header a {
 .page-divider {
     text-align: center;
     color: rgb(247, 247, 240);
+    margin: 5px;
 }
 
 #fb-button-container {
