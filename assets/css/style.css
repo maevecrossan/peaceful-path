@@ -189,6 +189,15 @@ header a {
     border-style: none;
 }
 
+/* Form Feedback Page */
+    #form-feedback-message {
+        text-align: center;
+        margin: 15px 25px;
+        padding: 7px 7px 7px 7px;
+        font-size: 1.5em;
+
+    }
+
 /* Mobile Menu Toggle */
 #nav-toggle {
     display: none;
@@ -212,4 +221,3 @@ header a {
     letter-spacing: 2px;
     margin-left: 5px;
 }
-
