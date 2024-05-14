@@ -226,13 +226,29 @@ header a {
     color: rgb(247, 247, 240);
 }
 
+#fb-button-container {
+    background-color: rgb(66, 84, 72);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: none;
+}
+
 #return-home-button {
-    margin-top: 20px;
+    margin: 20px 0px;
     padding: 15px 26px;
     border-radius: 4px;
     background-color: rgb(247, 247, 240);
     color: rgb(85, 105, 91);
     font-size: 90%;
     text-align: center;
+    border-style: none;
+    border-radius: 4px;
+    box-shadow: none;
+}
+
+#return-home-button a {
+    text-decoration: none;
+    color: rgb(66, 84, 72);
     border-style: none;
 }
