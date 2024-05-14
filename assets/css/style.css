@@ -51,7 +51,6 @@ nav {
     box-shadow: 0 2px 4px rgb(110, 127, 115);
 }
 
-
 header a {
     text-decoration: none;
     color: inherit;
@@ -80,14 +79,40 @@ header a {
 }
 
 /* Homepage Intro Section*/ 
+
+#introduction { 
+    margin: 15px 30px;
+}
+
+#welcome, #ethos, #where-to-start {
+    margin-top: 15px;
+    text-align: center;
+}
+
 #welcome, #where-to-start {
     background-color: rgb(247, 247, 240);
     color: rgb(85, 105, 91);
+    
 }
 
 #ethos {
     background-color: rgb(85, 105, 91);
     color: rgb(247, 247, 240);
+}
+
+#welcome h2, #where-to-start h2 {
+    border-bottom: 2px solid rgb(85, 105, 91);
+    padding: 8px;
+}
+
+#ethos h2 {
+    border-bottom: 2px solid rgb(247, 247, 240);
+    padding: 8px;
+}
+
+#welcome p, #ethos p, #where-to-start p {
+    margin: 8px 8px 10px 8px;
+    padding: 4px 4px 10px 4px;
 }
 
 /* Mobile Menu Toggle */
