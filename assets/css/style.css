@@ -140,6 +140,10 @@ header a {
     font-size: 105%;
 }
 
+#about-us, #explanation-intro, #pre-signup {
+    margin-top: 40px;
+}
+
 /* Explanation Page - Benefits*/
 #benefits {
     padding: 4px 4px 10px 4px;
