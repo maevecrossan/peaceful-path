@@ -72,11 +72,13 @@ header a {
 /* Hero & Slogan */
 #hero {
     background: rgb(110, 127, 115) url(../images/long-grass.JPG) no-repeat center center/cover;
-    height: 65vh;
+    max-height: 65vh;
+    min-height: 65vh;
     width: 100%;
     display: flex;
     align-items: center;
     text-align: center;
+    justify-content: center;
     flex-direction: column;
 }
 
@@ -87,7 +89,6 @@ header a {
     background-color: rgba(85, 105, 81, 0.6);
     width: 80%;
     padding: 30px 10px;
-    margin-top: 200px;
     font-size: 2rem;
     border-radius: 4px;
 }
@@ -142,6 +143,10 @@ header a {
 
 #about-us, #explanation-intro, #pre-signup {
     margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Explanation Page - Benefits*/
@@ -163,14 +168,20 @@ header a {
 
 /* Sign up Page */
 #signup-container {
-    margin: 15px 25px;
+    margin: 25px 25px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
     /* Form */
 #signup-form {
-    padding: 10px;
+    padding: 30px;
     text-align: left;
     max-width: 400px;
+
 }
 
 .input-label {
@@ -290,7 +301,6 @@ header a {
         justify-content: space-evenly;
         box-shadow: 0px 5px 5px 0px rgb(102, 121, 108);
         height: 50px;
-        margin-top: 10px;
         font-size: 105%;
     }
 
@@ -303,11 +313,13 @@ header a {
     }
 
     #hero {
-        height: 50vh;
+        max-height: 50vh;
+        min-height: 50vh;
     }
 
     #slogan {
-        margin-top: 250px;
+        margin-top: 10px;
+        max-width: 500px;
     }
 
     #what-is-mindfulness {
@@ -332,5 +344,38 @@ header a {
         justify-content: center;
         align-items: center;
         margin-top: 80px;
+    }
+
+    #welcome, #ethos, #where-to-start, #explanation-intro, #benefits-list, #pre-signup, #benefits {
+        padding: 20px;
+    } 
+
+    .page-divider {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    #logo {
+        font-size: 300%;
+        margin-left: 30px;
+        box-shadow: none;
+    }
+
+    #slogan{
+        max-width: 600px;
+    }
+
+    #menu {
+        font-size: 150%;
+        display: flex;
+        justify-content: space-evenly;
+        box-shadow: 0px 5px 5px 0px rg(102, 121, 108);
+        height: 60px;
+        align-items: center;
+    }
+
+    main {
+        font-size: larger;
     }
 }
