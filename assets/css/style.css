@@ -16,7 +16,7 @@ body {
 }
 
 header {
-    background-color: rgb(152, 181, 161);
+    background-color: rgb(66, 84, 72);
     color: rgb(247,247,240);
     position: fixed;
     width: 100%;
@@ -25,7 +25,7 @@ header {
 
 main {
     margin: 47px 0 0 0;
-    background-color: rgb(66, 84, 72);
+    background-color: rgb(131, 150, 137);
     flex: 1 0 auto;
 }
 
@@ -35,8 +35,8 @@ ul {
 
 /* Footer */
 #social-media {
-    background-color: rgb(152, 181, 161);
-    color: rgb(247,247,240);
+    background-color: rgb(66, 84, 72);
+    color: rgb(247, 247, 240);
     display: flex;
     justify-content: space-evenly;
     font-size: 1.5em;
@@ -55,7 +55,7 @@ nav {
     width: 100%;
     position: absolute;
     display: none;
-    background-color: rgb(152, 181, 161);
+    background-color: rgb(66, 84, 72);
     box-shadow: 0 2px 4px rgb(110, 127, 115);
     font-size: 1.3em;
     padding: 5px 5px 7px 10px;
@@ -84,7 +84,7 @@ header a {
 
 #slogan {
     font-family: 'Raleway', Helvetica, sans-serif;
-    color: rgb(247, 247, 240);
+    color: rgb(255, 255, 255);
     text-transform: uppercase;
     background-color: rgba(85, 105, 81, 0.6);
     width: 80%;
@@ -110,13 +110,13 @@ header a {
 }
 
 .white-bg {
-    background-color: rgb(247, 247, 240);
+    background-color: rgb(255, 255, 255);
     color: rgb(85, 105, 91);
 }
 
 .green-bg {
     background-color: rgb(85, 105, 91);
-    color: rgb(247, 247, 240);
+    color: rgb(255, 255, 255);
 }
 
 #welcome h2, #where-to-start h2, #explanation-intro h2, #signup-container h3{
@@ -127,7 +127,7 @@ header a {
 }
 
 #ethos h2, #explanation-intro h2 {
-    border-bottom: 2px solid rgb(247, 247, 240);
+    border-bottom: 2px solid rgb(255, 255, 255);
     padding: 8px;
     text-align: center;
     font-size: 1.5em;
@@ -199,7 +199,7 @@ header a {
 }
 
 #signup-form p {
-    border-bottom: 2px solid rgb(247, 247, 240);
+    border-bottom: 2px solid rgb(255, 255, 255);
     text-align: center;
     font-size: 1.2em; /* larger than <p> */
 }
@@ -208,7 +208,7 @@ header a {
     margin-top: 20px;
     padding: 15px 26px;
     border-radius: 4px;
-    background-color: rgb(247, 247, 240);
+    background-color: rgb(255, 255, 255);
     color: rgb(85, 105, 91);
     font-size: 90%;
     text-align: center;
@@ -235,7 +235,7 @@ header a {
 }
 
 .nav-toggle-label {
-    color: rgb(247,247,240);
+    color: rgb(255, 255, 255);
     position: absolute;
     right: 14px;
     top: 8px;
@@ -250,7 +250,7 @@ header a {
 
 .page-divider {
     text-align: center;
-    color: rgb(247, 247, 240);
+    color: rgb(255, 255, 255);
     padding: 10px;
 }
 
@@ -266,7 +266,7 @@ header a {
     margin: 20px 0px;
     padding: 15px 26px;
     border-radius: 4px;
-    background-color: rgb(247, 247, 240);
+    background-color: rgb(255, 255, 255);
     color: rgb(85, 105, 91);
     font-size: 90%;
     text-align: center;
