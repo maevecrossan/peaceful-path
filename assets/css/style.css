@@ -171,6 +171,10 @@ header a {
     margin: 8px 8px 10px 8px;
 }
 
+#benefits-list li {
+    margin: 10px 0px;
+}
+
 /* Sign up Page */
 #signup-container {
     margin: 25px 25px;
