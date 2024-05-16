@@ -305,6 +305,10 @@ header a {
         height: 70px;
     }
 
+    main {
+        margin-top: 100px;
+    }
+
     #logo {
         font-size: 250%;
         padding-bottom: 10px;
@@ -377,7 +381,7 @@ header a {
     }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1440px) {    
     nav {
         position: absolute;
         display: block;
@@ -419,5 +423,6 @@ header a {
 
     main {
         font-size: larger;
+        margin-top: 100px;
     }
 }
