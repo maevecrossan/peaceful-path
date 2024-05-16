@@ -95,6 +95,7 @@ header a {
 
 .active {
     border-bottom: 3px dotted rgb(255, 255, 255); 
+    padding: 2px;
 }
 
 /* Homepage Intro Section*/ 
