@@ -37,7 +37,7 @@ ul {
 /* Footer */
 #social-media {
     background-color: rgb(66, 84, 72);
-    color: rgb(247, 247, 240);
+    color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-evenly;
     font-size: 1.5em;
