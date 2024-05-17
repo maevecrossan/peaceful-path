@@ -57,7 +57,7 @@ nav {
     position: absolute;
     display: none;
     background-color: rgb(66, 84, 72);
-    box-shadow: 0 2px 4px rgb(110, 127, 115);
+    box-shadow: 0 3px 4px rgb(110, 127, 115);
     font-size: 1.3em;
     padding: 5px 5px 7px 10px;
     line-height: 35px;
