@@ -296,7 +296,7 @@ header a {
         position: absolute;
         display: block;
         text-align: center;
-        box-shadow: 0px 5px 5px 0px rgb(102, 121, 108);
+        box-shadow: 0px 5px 5px 0px rgb(110, 127, 115);
         margin-top: -2px;
     }
 
@@ -386,7 +386,7 @@ header a {
         position: absolute;
         display: block;
         text-align: center;
-        box-shadow: 0px 5px 5px 0px rgb(102, 121, 108);
+        box-shadow: 0px 5px 5px 0px rgb(110, 127, 115);
         margin-top: -2px;
     }
 
@@ -398,7 +398,7 @@ header a {
     }
     
     header {
-        background-color: rgb(66, 84, 72);
+        background-color: rgb(110, 127, 115);
         height: 70px;
     }
 
@@ -416,7 +416,7 @@ header a {
         font-size: 150%;
         display: flex;
         justify-content: space-evenly;
-        box-shadow: 0px 5px 5px 0px rg(102, 121, 108);
+        box-shadow: 0px 5px 5px 0px rgb(110, 127, 115);
         height: 60px;
         align-items: center;
     }
