@@ -100,10 +100,6 @@ header a {
 
 /* Homepage Intro Section*/ 
 
-#introduction, #what-is-mindfulness { 
-    margin: 15px 25px;
-}
-
 #welcome, #ethos, #where-to-start {
     margin-top: 15px;
     text-align: center;
@@ -340,7 +336,7 @@ header a {
         max-width: 500px;
     }
 
-    #what-is-mindfulness, #form-feedback-message {
+    #form-feedback-message {
         display: flex;
         flex-direction: column;
         justify-content: center;
