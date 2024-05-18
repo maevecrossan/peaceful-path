@@ -121,7 +121,7 @@ header a {
     color: rgb(255, 255, 255);
 }
 
-#welcome h2, #where-to-start h2, #explanation-intro h2, #signup-container h3{
+#welcome h2, #where-to-start h2, #explanation-intro h2 {
     border-bottom: 2px solid rgb(85, 105, 91);
     padding: 8px;
     text-align: center;
@@ -188,14 +188,23 @@ header a {
 
 #pre-signup {
     margin: 20px 25px;
+    padding: 10px;
     min-width: 280px;
 }
 
     /* Form */
 #signup-form {
     padding: 30px;
-    text-align: left;
+    text-align: center;
     max-width: 400px;
+}
+
+#signup-header {
+    text-align: center;
+    padding: 5px 3px 7px 3px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    font-size: 1.2em;
+    margin-bottom: 20px;
 }
 
 .input-label {
@@ -207,7 +216,8 @@ header a {
     margin: 10px 10px 10px 10px;
     border-radius: 4px;
     height: 30px;
-    width: 13rem;
+    min-width: 220px;
+    width: 95%;
     border-style: none;
     padding: 10px;
     font-size: 130%;
