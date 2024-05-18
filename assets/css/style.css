@@ -169,7 +169,11 @@ header a {
 }
 
 #benefits-list li {
-    margin: 10px 0px;
+    margin: 15px 0px;
+}
+
+.benefits-items {
+    line-height: 25px;
 }
 
 /* Sign up Page */
