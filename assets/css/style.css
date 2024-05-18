@@ -200,16 +200,17 @@ header a {
 
 .input-label {
     padding: 5px;
-    font-size: 105%;
+    font-size: 120%;
 }
 
 .text-input {
-    margin: 5px 10px 10px 5px;
+    margin: 10px 10px 10px 10px;
     border-radius: 4px;
     height: 30px;
     width: 13rem;
     border-style: none;
     padding: 10px;
+    font-size: 130%;
 }
 
 #signup-form p {
