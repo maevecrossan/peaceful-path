@@ -121,7 +121,7 @@ header a {
     color: rgb(255, 255, 255);
 }
 
-#welcome h2, #where-to-start h2, #explanation-intro h2, #pre-signup h3 {
+#welcome h2, #where-to-start h2, #explanation-intro h2, #pre-signup h2 {
     border-bottom: 2px solid rgb(85, 105, 91);
     padding: 8px;
     text-align: center;

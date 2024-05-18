@@ -13,12 +13,19 @@
 <body>
     <!-- Header -->
     <header>
-            <a href="index.html">
-                <h1 id="logo"><i class="fa-brands fa-pagelines fa-flip-horizontal"></i>Peaceful Path<i class="fa-brands fa-pagelines"></i></h1>
-            </a>
-    <!-- Navigation -->
+        <a href="index.html">
+            <h1 id="logo">
+                <i class="fa-brands fa-pagelines fa-flip-horizontal"></i>
+                Peaceful Path
+                <i class="fa-brands fa-pagelines"></i>
+            </h1>
+        </a>
+<!-- Navigation -->
     <input type="checkbox" id="nav-toggle" name="nav-toggle">
-    <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
+    <label for="nav-toggle" class="nav-toggle-label">
+        <span class="sr-only">Click to toggle menu</span>
+        <i class="fa-solid fa-bars"></i>
+    </label>
     <nav>
         <ul id="menu">
             <li><a href="index.html" aria-label="About Peaceful Path (homepage)">Home</a></li>
@@ -31,7 +38,7 @@
     <main>
             <div id="signup-container">
                 <div id="pre-signup" class="white-bg">
-                    <h3>Your journey starts here.<br>Let's get started!</h3>
+                    <h2>Your journey starts here.<br>Let's get started!</h2>
                     
                     <p>We're still working hard on making our full range of services 
                         available to you ASAP. In the meantime, if you want to get a feel for what we're about, 
@@ -47,7 +54,7 @@
                 </div>
 
                 <form id="signup-form" action="form-feedback.html" method="GET" class="green-bg">
-                    <h4 id="signup-header">Sign Up Here</h4>
+                    <h3 id="signup-header">Sign Up Here</h3>
                     <label for="first-name" class="input-label">First Name</label>
                     <input type="text" id="first-name" class="text-input" name="first-name" required>
 
