@@ -8,6 +8,8 @@
     box-sizing: border-box;
 }
 
+/* General Styles */
+
 body {
     display: flex;
     min-height: 100vh;
@@ -32,6 +34,57 @@ main {
 
 ul {
     list-style-type: none;
+}
+
+/* General Styling */ 
+#welcome, #ethos, #where-to-start, #pre-signup, #signup-form {
+    margin: 20px 25px;
+    text-align: center;
+}
+
+.white-bg {
+    background-color: rgb(255, 255, 255);
+    color: rgb(85, 105, 91);
+}
+
+.green-bg {
+    background-color: rgb(85, 105, 91);
+    color: rgb(255, 255, 255);
+}
+
+.curved-border {
+    border-radius: 4px;
+}
+
+#welcome h2, #where-to-start h2, #explanation-intro h2, #pre-signup h2 {
+    border-bottom: 2px solid rgb(85, 105, 91);
+    padding: 8px;
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 30px;
+}
+
+#ethos h2, #explanation-intro h2 {
+    border-bottom: 2px solid rgb(255, 255, 255);
+    padding: 8px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#welcome p, #ethos p, #where-to-start p, #explanation-intro p, #signup-container p {
+    margin: 8px 8px 10px 8px;
+    padding: 4px 4px 10px 4px;
+    font-size: 105%;
+    text-align: center;
+    font-size: 105%;
+}
+
+#about-us, #what-is-mindfulness, #signup-container {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Footer */
@@ -90,60 +143,11 @@ header a {
     width: 80%;
     padding: 30px 10px;
     font-size: 2rem;
-    border-radius: 4px;
 }
 
 .active {
     border-bottom: 3px solid rgb(255, 255, 255); 
     padding: 2px;
-}
-
-/* General Styling */ 
-#welcome, #ethos, #where-to-start, #pre-signup, #signup-form {
-    margin: 20px 25px;
-    text-align: center;
-    border-radius: 4px;
-}
-
-.white-bg {
-    background-color: rgb(255, 255, 255);
-    color: rgb(85, 105, 91);
-}
-
-.green-bg {
-    background-color: rgb(85, 105, 91);
-    color: rgb(255, 255, 255);
-}
-
-#welcome h2, #where-to-start h2, #explanation-intro h2, #pre-signup h2 {
-    border-bottom: 2px solid rgb(85, 105, 91);
-    padding: 8px;
-    text-align: center;
-    font-size: 1.5em;
-    line-height: 30px;
-}
-
-#ethos h2, #explanation-intro h2 {
-    border-bottom: 2px solid rgb(255, 255, 255);
-    padding: 8px;
-    text-align: center;
-    font-size: 1.5em;
-}
-
-#welcome p, #ethos p, #where-to-start p, #explanation-intro p, #signup-container p {
-    margin: 8px 8px 10px 8px;
-    padding: 4px 4px 10px 4px;
-    font-size: 105%;
-    text-align: center;
-    font-size: 105%;
-}
-
-#about-us, #what-is-mindfulness, #signup-container {
-    margin-top: 40px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 /* Explanation Page - Benefits*/
@@ -212,7 +216,6 @@ header a {
 
 .text-input {
     margin: 10px 10px 10px 10px;
-    border-radius: 4px;
     height: 30px;
     min-width: 220px;
     width: 95%;
@@ -230,7 +233,6 @@ header a {
 #form-button {
     margin-top: 20px;
     padding: 15px 26px;
-    border-radius: 4px;
     background-color: rgb(255, 255, 255);
     color: rgb(85, 105, 91);
     font-size: 90%;
@@ -244,7 +246,6 @@ header a {
         margin: 40px 25px 90px 25px;
         padding: 20px 10px 20px 10px;
         font-size: 1.3em;
-        border-radius: 4px;
     }
 
     #form-feedback-message p {
@@ -311,7 +312,6 @@ header a {
 #fb-return-home {
     margin: 20px 0px;
     padding: 15px 26px;
-    border-radius: 4px;
     background-color: rgb(255, 255, 255);
     color: rgb(85, 105, 91);
     font-size: 90%;
@@ -325,7 +325,6 @@ header a {
     border: 2px solid rgb(85, 105, 91);
     width: fit-content;
     padding: 15px;
-    border-radius: 4px;
 }
 
 /* Tabelt snad above */
