@@ -245,8 +245,12 @@ header a {
         text-align: center;
         margin: 40px 25px 90px 25px;
         padding: 20px 10px 20px 10px;
-        font-size: 1.5em;
+        font-size: 1.3em;
         border-radius: 4px;
+    }
+
+    #form-feedback-message p {
+        margin-bottom: 15px;
     }
 
 /* Mobile Menu Toggle */
@@ -391,6 +395,11 @@ header a {
         justify-content: center;
         align-items: center;
         margin: 120px 100px 0px 100px;
+        line-height: 40px;
+    }
+
+    #form-feedback-message p {
+        margin-bottom: 15px;
     }
 
     .page-divider {
@@ -424,7 +433,7 @@ header a {
     }
 
     #menu {
-        font-size: 150%;
+        font-size: 160%;
         display: flex;
         justify-content: space-evenly;
         height: 60px;
