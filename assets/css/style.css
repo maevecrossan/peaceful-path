@@ -271,6 +271,17 @@ header a {
     font-size: 27px;
 }
 
+/* Code borrowed from "https://css-tricks.com/inclusively-hidden/" */
+.sr-only:not(:focus):not(:active) {
+    clip: rect(0 0 0 0); 
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap; 
+    width: 1px;
+  }
+
 #logo {
     font-family: 'Oswald', Helvetica, sans-serif;
     letter-spacing: 2px;
