@@ -106,7 +106,7 @@ header a {
     border-radius: 4px;
 }
 
-#explanation-intro, #benefits, #pre-signup, #signup-form {
+#pre-signup, #signup-form {
     border-radius: 4px;
     margin: 20px 25px;
 }
@@ -178,7 +178,7 @@ header a {
 }
 
 /* Sign up Page */
-#signup-container, #what-is-mindfulness {
+#signup-container {
     margin: 25px 25px;
     padding: 20px;
     display: flex;
@@ -402,7 +402,7 @@ header a {
 
     #welcome, #ethos, #where-to-start, #explanation-intro, #benefits-list, #pre-signup, #benefits, #form-feedback-message {
         padding: 20px;
-    } 
+    }
 
     #form-feedback-message {
         display: flex;
