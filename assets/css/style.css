@@ -126,6 +126,7 @@ header a {
     padding: 8px;
     text-align: center;
     font-size: 1.5em;
+    line-height: 30px;
 }
 
 #ethos h2, #explanation-intro h2 {
@@ -352,6 +353,7 @@ header a {
     #logo {
         font-size: 250%;
         padding-bottom: 10px;
+        padding-left: 10px;
         height: 70px;
     }
 
@@ -382,10 +384,12 @@ header a {
 
     #explanation-intro, #welcome, #ethos, #where-to-start, #pre-signup {
         max-width: 800px;
+        font-size: large;
+        line-height: 25px;
     }
 
     #benefits {
-        max-width: 600px;
+        max-width: 700px;
     }
 
     #signup-container {
@@ -454,5 +458,9 @@ header a {
     main {
         font-size: larger;
         margin-top: 100px;
+    }
+
+    footer {
+        font-size: 150%;
     }
 }
