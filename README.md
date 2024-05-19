@@ -31,4 +31,26 @@ As a business...
 * I want to create a small gallery of original content to further engage customers and display our services.
 
 #### Opportunities
-Below is a table of opportunities with corresponding importance and viability/feasibility ratings. 
+Below is a table of opportunities based off user stories with corresponding importance and viability/feasibility ratings. 
+
+| Opportunities | Importance | Viability/Feasibility |
+|-----|:-----:|:-----:|
+| Learn more about the company | 5 | 5 |
+| Learn about mindfulness and its benefits | 5 | 5 |
+| Experience how this brand views mindfulness | 4 | 5 |
+| Choice to be updated on future services | 3 | 5 |
+| Experience how the company teaches mindfulness through various media | 3 | 1 |
+
+I decided to omit the last opportunity as I knew more time would be needed to learn how to create a gallery through which to display images, videos and audio. My main concern was making the display of the media match the rest of the website in terms of cleanliness and simplicity. I decided it was not a priority for this project, but would certainly be something I would have liked to have added, had there been enough time to learn, practice and execute it.
+
+### Wireframe Mockups
+I used the app Procreate on my iPad to draw and map out the basic structure of each page. I opted to use this app as I am very familiar with it, gives me complete creative freedom, and allows me to make adjustments very easily.
+
+*Figure 1 - Mobile Outline: index.html & explanation.html*
+![Mockup of homepage and explanation page](docs/screenshots/mobile-mockup-1.png)
+
+*Figure 2 - Mobile Outline: signup.html & form-feedback.html*
+![Mockup of signup and form feedback page](docs/screenshots/mobile-mockup-2.png)
+
+*Figure 3 - Screens 768px and Above Outline: homepage*
+![Mockup of signup and form feedback page](docs/screenshots/large-screen-mockup.png)
