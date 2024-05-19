@@ -241,6 +241,13 @@ header a {
 }
 
 /* Form Feedback Page */
+    #feedback-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
     #form-feedback-message {
         text-align: center;
         margin: 40px 25px 90px 25px;
@@ -411,6 +418,7 @@ header a {
         align-items: center;
         margin: 120px 100px 0px 100px;
         line-height: 40px;
+        max-width: 1000px;
     }
 
     #form-feedback-message p {
