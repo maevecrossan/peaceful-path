@@ -54,3 +54,16 @@ I used the app Procreate on my iPad to draw and map out the basic structure of e
 
 *Figure 3 - Screens 768px and Above Outline: homepage*
 ![Mockup of signup and form feedback page](docs/screenshots/large-screen-mockup.png)
+*Note: Only this much of the larger screen mockup is drawn as the rest of the elements remain the same regardless of screensize*
+
+## Features
+
+### Common Features
+#### Colour Palette
+I used Procreate to create my colour scheme by pulling colours from the hero image. This helped me create a rough colour palette which I used until the project was about 80% done. The original colours were modified towards the end of the project to improve accessibility.
+The colours I used are as follows:
+* rgb (66, 84, 72) or #425448 for the header and footer background.
+* rgb (255, 255, 255) or #ffffff for the header font, the footer font and the (alternating) body text/div backgrounds.
+* rgb (110, 127, 115) or #6E7F73 for the box-shadow.
+* rgb (131, 150, 137) or #839689 for the main background.
+* rgb (85, 105, 91) or #55695B for the (alternating) body text/div background.
