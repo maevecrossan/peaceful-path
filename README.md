@@ -29,3 +29,6 @@ As a business...
 * I want users to engage with the 30-day mindfulness challenge.
 * I want to grow our customer base by encouraging users to sign up for updates.
 * I want to create a small gallery of original content to further engage customers and display our services.
+
+#### Opportunities
+Below is a table of opportunities with corresponding importance and viability/feasibility ratings. 
