@@ -1,12 +1,17 @@
 # **Peaceful Path**
-Link to the deployed project: 
-https://maevecrossan.github.io/peaceful-path/
+The link to the live website: 
+https://maevecrossan.github.io/peaceful-path/index.html 
+
+The link to the project repository: 
+https://github.com/maevecrossan/peaceful-path 
 
 ## **Introduction**
 ![Am I Responsive screenshot](docs/screenshots/am-i-responsive.png)
 Peaceful Path is a mindfulness website targeted towards those either starting or restarting their mindfulness journey. Its main purpose is to establish a relationship with its audience, promote its brand identity while finalising its services, provide essential information on mindfulness, and offer free a 30-day mindfulness guide. 
 
 This project was built with HTML and CSS.
+
+> **Note:** Please cmnd-click (Mac) or ctrl-click(Windows) on any links to open them in a new tab.
 
 ## **UX**
 
@@ -243,12 +248,14 @@ No errors were found when checked with the W3C Validator.
 
 
 Page 1: Homepage (index.html)
+
 https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fmaevecrossan.github.io%2Fpeaceful-path%2Findex.html
 
 <img src="docs/screenshots/w3c-homepage.png" alt="a screenshot of the html checker showing now errors for the homepage" width="400px">
 
 
 Page 2: What is Mindfulness? (explanation.html)
+
 https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fmaevecrossan.github.io%2Fpeaceful-path%2Fexplanation.html
 
 <img src="docs/screenshots/w3c-explanation.png" alt="a screenshot of the html checker showing now errors for the second page" width="400px">
@@ -284,7 +291,7 @@ As previously mentioned, the grid revealed that two of my original colours were 
 
 ##### Lighthouse
 I used Lighthouse in devtools to test my website on both mobiles and desktop.
-Below is the results for desktop:
+Below are the results for desktop:
 
 <img src="docs/screenshots/lighthouse-homepage-desktop.png" alt="a screenshot of lightouse results for the homepage (desktop)" width="500px">
 
@@ -352,3 +359,51 @@ Over the course of developing this project I encountered a variety of bugs.
     * The poorly contrasting colours can be seen in the box outlined in blue.
     <img src="docs/screenshots/replaced-colours.png" alt="a screenshot from contrast grid demonstrating poor contrast between two colours" width="500px">
 
+
+## Deployment
+
+This project was deployed to GitHub pages. The steps I took were as follows:
+1. After selecting and opening the GitHub repository, open the Settings menu. 
+2. Under the Code and Automation on the left, select Pages.
+3. For source, select ‘Deploy from a branch’.
+4. Select ‘Main’, then ‘/root’.
+5. Save your choices and wait for the deployment to load.
+
+The link to the live website: https://maevecrossan.github.io/peaceful-path/index.html 
+The link to the project repository: https://github.com/maevecrossan/peaceful-path 
+
+
+## Credits
+
+### Content
+* The written content for each section was edited by [ChatGPT](https://chatgpt.com/).
+* The content of the pdf file was generated exclusively by [ChatGPT](https://chatgpt.com/).
+* [w3schools.com](https://www.w3schools.com/) was used to deepen my understanding on flexbox, as well as to answer general questions I had. 
+* I borrowed HTML and CSS from [css-tricks.com](https://css-tricks.com/inclusively-hidden/) to fix an accessibility error identified by WAVE. 
+(Article sent to me by my mentor [David Bowers](https://github.com/dnlbowers/).)
+* The icons used beside the logo, to divide the text, in the footer and to mark the benefits list were all sourced from [Font Awesome](https://fontawesome.com/) .​
+* [Adobe Lightroom](https://www.adobe.com/ie/) was used to export the initial hero image.
+* [TinyPNG](https://tinypng.com/) was used to compress the hero image.
+
+### Media
+* The hero image is my own, edited and exported with [Adobe Lightroom](https://www.adobe.com/ie/).
+
+### Testing Resources
+
+The following were used for testing (during and post development):
+
+* [WAVE Evaluation Tool (Chrome Extension)](https://chromewebstore.google.com/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh)
+* [W3C Markup Validation Service (HTML)](https://validator.w3.org/)
+* [W3C CSS Validation Service (CSS)](https://jigsaw.w3.org/css-validator/)
+* [Am I Responsive?](https://ui.dev/amiresponsive)
+* [Contrast Grid](https://contrast-grid.eightshapes.com/)
+
+### Thank Yous and Honorable Mentions
+
+* Firstly, I'd like to thank [Stephen Dalton](https://github.com/stephen-dalton) for introducing me to the world of coding and for letting me pester him with questions. Thank you for your time and patience.
+
+* Secondly, I want to thank my mentor [David Bowers](https://github.com/dnlbowers/) for his constant support, assistance, encouragement and kindness throughout this project. It has all been incredibly invaluable and immensely appreciated.
+
+* Thirdly, I'd like to thank my family. Without their support and ✨aggressive✨ motivation, I would likely have talked myself out of this career change. 
+
+* Lastly, I'd like to thank you for making it to the end of my README! I hope your enjoyed my project. 
