@@ -49,12 +49,15 @@ I decided to omit the last opportunity as I knew more time would be needed to le
 I used the app Procreate on my iPad to draw and map out the basic structure of each page. I opted to use this app as I am very familiar with it, gives me complete creative freedom, and allows me to make adjustments very easily.
 
 *Figure 1 - Mobile Outline: index.html & explanation.html*
+
 <img src="docs/screenshots/mobile-mockup-1.png" alt="Mockup of homepage and explanation page" height=400px>
 
 *Figure 2 - Mobile Outline: signup.html & form-feedback.html*
+
 <img src="docs/screenshots/mobile-mockup-2.png" alt="Mockup of signup and form feedback page" height=400px>
 
 *Figure 3 - Screens 768px and Above Outline: homepage*
+
 <img src="docs/screenshots/large-screen-mockup.png" alt="Mockup of signup and form feedback page" height=250px width=350px>
 
 >:memo: Note: Only this much of the larger screen mockup is drawn as the rest of the elements remain the same regardless of screensize
@@ -138,6 +141,7 @@ It also acts as the inspiration for the colour scheme which in turn encourages u
 The hero image also acts as a clear indicator that the user is on/has returned to the homepage, as no other page has one.
 
 #### The Slogan
+
 <img src="docs/screenshots/slogan-screenshot.png" alt="a screenshot of the slogan above the hero image, reading ;let's grow together'" width="300px">
 
 I chose to add a slogan to lay on top of the hero image. I felt this added some personality and engaged the user more so than the image alone would do.
@@ -328,3 +332,23 @@ WAVE shows three alerts for this page.
 
 
 <img src="docs/screenshots/wave-form-feedback.png" alt="a screenshot showing the WAVE evaluation of page 4" width="500px">
+
+## Bugs and Fixes
+
+Over the course of developing this project I encountered a variety of bugs.
+
+1. The first, and most common, bug I faced was with my header. As there were multiple elements in the header, modifying one property would cause the rest of the properties to riot.
+    * In a few instances, both the menu and nav element had a box shadow. They appeared disjointed and off-centre from each other. After a while, I saw this was caused by different values I had set for the header in the media queries. It was an easy fix once I learned to apply the more general styles to the container div.
+    * Another issue I had with the header was it not showing up on the form feedback page. I found that some of the HTML was missing from the page, and fixed the bug by simply copying the header info from the index.html page (and removing the active class).
+
+2. Another bug I faced was roaming divs. After altering a property of a div, I would refresh the preview page to find it had moved to the left of the page. 
+    * I fixed this by adding display: flex, justify-content: center, align-items: center to the parent div.
+
+3. Another issue I faced was the effect my hero image size had on the performance. The initial version of the photo I uploaded was a PNG fresh out of Adobe Lightroom, so it was quite large and had a lot of metadata.
+    * Through trial and error, I found that a compressed webp file was the most suitable and had a positive effect on the performance score given by Lighthouse. 
+
+4. The initial colours I chose for my project had to be modified towards the end of development when the colours were tested with the contrast grid. 
+    * A lighter shade (#C4D3C1) was originally chosen for the header and footer background. The white currently used was originally an off-white colour (#F2F1E6). However, these original colours did not contrast enough against one another, so they were swapped out for stronger colours.
+    * The poorly contrasting colours can be seen in the box outlined in blue.
+    <img src="docs/screenshots/replaced-colours.png" alt="a screenshot from contrast grid demonstrating poor contrast between two colours" width="500px">
+
