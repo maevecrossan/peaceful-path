@@ -4,7 +4,9 @@ https://maevecrossan.github.io/peaceful-path/
 
 ## **Introduction**
 ![Am I Responsive screenshot](docs/screenshots/am-i-responsive.png)
-Peaceful Path is a mindfulness website targeted towards those either starting or restarting their mindfulness journey. Its main purpose is to establish a relationship with its audience, promote its brand identity while finalising its services, provide essential information on mindfulness, and offer free a 30-day mindfulness guide.
+Peaceful Path is a mindfulness website targeted towards those either starting or restarting their mindfulness journey. Its main purpose is to establish a relationship with its audience, promote its brand identity while finalising its services, provide essential information on mindfulness, and offer free a 30-day mindfulness guide. 
+
+This project was built with HTML and CSS.
 
 ## **UX**
 
@@ -124,4 +126,206 @@ I also didn’t want to space elements too far apart and create awkward gaps tha
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="docs/screenshots/mobile-demo-screenshot.png" alt="screenshot of the homepage on a 320px device" height=400px>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="docs/screenshots/tablet-demo-screenshot.png" alt="screenshot of the homepage on a 768px device" height=400px>
 <img src="docs/screenshots/4k-demo-screenshot.png" alt="screenshot of the homepage on a 4k screen" width="500px">
+
+### Page 1: The Homepage
+
+#### The Hero Image
+<img src="docs/screenshots/hero-screenshot.png" alt="a screenshot of the hero image which show long grass with beads of water on the blades" width="400px">
+
+I used my own image for the hero at the top of the homepage. I chose it because of the array of colours it holds but also because of the mood it conveys. I wanted a picture that was calming, which encouraged the user to feel relaxed and to associate that feeling with the Peaceful Path brand.
+
+It also acts as the inspiration for the colour scheme which in turn encourages users to link it to the brand.
+The hero image also acts as a clear indicator that the user is on/has returned to the homepage, as no other page has one.
+
+#### The Slogan
+<img src="docs/screenshots/slogan-screenshot.png" alt="a screenshot of the slogan above the hero image, reading ;let's grow together'" width="300px">
+
+I chose to add a slogan to lay on top of the hero image. I felt this added some personality and engaged the user more so than the image alone would do.
+It acts as a note of encouragement and as a challenge to the user, as well as evokes the feeling of community.
+
+I added an opaque background of green to make it more legible and noticeable. It is also the only text in uppercase lettering, separating it from the other content.
+
+#### The Main Section: About Us
+
+<img src="docs/screenshots/about-us-screenshot.png" alt="a screenshot of the about section on the home page" width="400px">
+
+This section is broken into the following three subsections:
+* Welcome to Peaceful Path!
+* Our Ethos
+* Where do I start?
+
+The sections are differentiated by colour, alternating between green-text-white-background or white-text-green-background. This is to add decoration and depth to the page, all while keeping it simplistic.
+
+Each section is wrapped in its own box for clarity.
+The heading for each subsection is underlined to separate it from the paragraph below.
+
+The sections are further separated with the lotus flower icon. 
+The content of the page remains in a column but resizes depending on the screen size. To combat excessive growth on very large screens, a max width was set to facilitate a more enjoyable reading experience. 
+
+As previously mentioned, I decided to omit additional images and decoration as I wanted to keep the focus on the text and prevent cognitive overload.
+
+### Page 2: What is Mindfulness?
+
+<img src="docs/screenshots/what-is-mindfulness-screenshot.png" alt="a screenshot of the 'what is minfulness page'" width="400px">
+
+Page two is broken into two subsections:
+* What is mindfulness?
+* Mindfulness Benefits
+
+The purpose of this page is to efficiently deliver essential information to the user. 
+
+The sections have different widths to add some visual dynamics, and to ensure the list is quick and easy to read.
+I chose to display the benefits in an unordered list and marked each point with an icon to separate the text while keeping it concise. I feel as though the icons add a touch of personality and visual interest. 
+
+As seen on the homepage, the sections are separated by the lotus icons. The content of the page also remains in a column and resizes depending on the screen size. 
+
+### Page 3: Getting Started
+
+<img src="docs/screenshots/getting-started-screenshot.png" alt="a screenshot of the 'getting started page' with a form" width="400px">
+
+This page encourages the user to download the 30-day mindfulness guide and to sign up for updates if they so wish.
+The form is just a mock form and uses the GET method.
+
+Each section of the form is required except for the checkbox.
+Filling out the form and submitting it will bring the user to a fourth page.
+
+Similarly to the first two pages, content of this page will also remain in a column and will resize depending on the screen size. It is also kept intentionally simplistic as I wanted the form to be the main focus.
+
+### Page 4: Form Feedback
+
+<img src="docs/screenshots/form-feedback-screenshot.png" alt="A screenshot of the form feedback message with a link to download the guide" width="400px">
+
+The form feedback page includes a thank you message and a clickable link. The link will initiate the immediate download on the 30-day guide to the user’s device. 
+
+To prevent the user from needing to use the forward/back arrows the browser provides, a ‘Return to Homepage’ button was added above the footer.
+
+No unnecessary clutter was added so that the user knows that all actions on the page have been completed. The feedback message will resize depending on the device depending on the screen size.
+
+## Testing
+
+I tested my project throughout development. I have divided my testing into two sections below: developmental testing and post developmental testing.
+
+### Developmental Testing
+
+I conducted testing throughout all stages of development. My initial testing was done using Chrome devtools to make sure my HTML content was showing up correctly. 
+
+Once I confirmed my content was being displayed, I took the mobile-first approach. I designed my website for mobiles first, only moving onto larger screens when I was 80% completed with the mobile design.
+
+I then progressed through the screen sizes and added to the CSS accordingly, making sure the content remained accessible and responsive through media queries.  
+
+Testing was done across multiple devices, but primarily:
+* Macbook Pro: 2880px x 1800px
+* BenQ EL2870U Display: 3840px x 2160px
+* iPad Pro: 2732px x 2048px
+* iPad 14 Pro Max: 2796px x 1290px
+
+I used four different browsers and their devtools on the above devices to view and test my website:
+* Chrome
+* Safari
+* Firefox
+* Microsoft Edge
+
+I also sent the deployed website to friends and family to test it, each with varying experience with technology and web development. 
+
+### Post Developmental Testing
+
+#### Validator Testing
+
+##### W3C Validator
+
+HTML
+
+No errors were found when checked with the W3C Validator.
+
+
+Page 1: Homepage (index.html)
+https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fmaevecrossan.github.io%2Fpeaceful-path%2Findex.html
+
+<img src="docs/screenshots/w3c-homepage.png" alt="a screenshot of the html checker showing now errors for the homepage" width="400px">
+
+
+Page 2: What is Mindfulness? (explanation.html)
+https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fmaevecrossan.github.io%2Fpeaceful-path%2Fexplanation.html
+
+<img src="docs/screenshots/w3c-explanation.png" alt="a screenshot of the html checker showing now errors for the second page" width="400px">
+
+
+Page 3: Getting Started (signup.html)
+
+https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fmaevecrossan.github.io%2Fpeaceful-path%2Fsignup.html
+
+<img src="docs/screenshots/w3c-signup.png" alt="a screenshot of the html checker showing now errors for the third page" width="400px">
+
+
+Page 4: Form Feedback (form-feedback.html)
+
+https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fmaevecrossan.github.io%2Fpeaceful-path%2Fform-feedback.html%3Ffirst-name%3DJane%26last-name%3DDoe%26email-address%3Djanedoe%2540gmail.com
+
+<img src="docs/screenshots/w3c-form-feedback.png" alt="a screenshot of the html checker showing now errors for the fourth page" width="400px">
+
+
+CSS
+No errors were found when checked with the W3C CSS validator.
+
+https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmaevecrossan.github.io%2Fpeaceful-path%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
+
+<img src="docs/screenshots/w3c-css.png" alt="a screenshot of the html checker showing now errors for the CSS" width="400px">
+
+##### Contrast Grid
+I used the contrast grid to enure by colour combinations would allow for an accessible experience. 
+
+As previously mentioned, the grid revealed that two of my original colours were not suitable. Below shows the final colours used for the project. All used combinations received an AA or AAA rating. 
+
+<img src="docs/screenshots/contrast-grid.png" alt="a screenshot showing the different colours used in the project in a comparative grid format" width="400px">
+
+##### Lighthouse
+I used Lighthouse in devtools to test my website on both mobiles and desktop.
+Below is the results for desktop:
+
+<img src="docs/screenshots/lighthouse-homepage-desktop.png" alt="a screenshot of lightouse results for the homepage (desktop)" width="500px">
+
+<img src="docs/screenshots/lighthouse-explanation-desktop.png" alt="a screenshot of lightouse results for page two (desktop)" width="500px">
+
+<img src="docs/screenshots/lighthouse-signup-desktop.png" alt="a screenshot of lightouse results for page three (desktop)" width="500px">
+
+<img src="docs/screenshots/lighthouse-form-feedback-desktop.png" alt="a screenshot of lightouse results for page four (desktop)" width="500px">
+
+Below are the Lighthouse results for mobile:
+
+<img src="docs/screenshots/lighthouse-homepage-mobile.png" alt="a screenshot of lightouse results for page 1 (mobile)" width="500px">
+
+<img src="docs/screenshots/lighthouse-explanation-mobile.png" alt="a screenshot of lightouse results for page 2 (mobile)" width="500px">
+
+<img src="docs/screenshots/lighthouse-signup-mobile.png" alt="a screenshot of lightouse results for page 3 (mobile)" width="500px">
+
+<img src="docs/screenshots/lightouse-feedback-mobile.png" alt="a screenshot of lightouse results for page 4 (mobile)" width="500px">
+
+##### WAVE Evaluation Tool
+I also used WAVE to test my accessibility. There were a couple of things flagged by wave, each of which is discussed above the relevant screenshot where necessary.
+
+As previously mentioned, the logo links to the homepage, therefore WAVE has marked the home link in the navigation redundant. This alert is found on each page, but I chose to include both links regardless.
+
+Page 1: The Homepage
+
+As previously mentioned, the logo links to the homepage, therefore WAVE has marked the home link in the navigation redundant. This alert is found on each page, but I chose to include both links regardless.
+
+<img src="docs/screenshots/wave-homepage.png" alt="a screenshot showing the WAVE evaluation of page 1" width="500px">
+
+Page 2: What is Mindfulness?
+
+<img src="docs/screenshots/wave-explanation.png" alt="a screenshot showing the WAVE evaluation of page 2" width="500px">
+
+Page 3: Getting Started
+
+<img src="docs/screenshots/wave-signup.png" alt="a screenshot showing the WAVE evaluation of page 3" width="500px">
+
+Page 4: Form Feedback
+
+WAVE shows three alerts for this page.
+1. Home page link.
+2. It suggests making the second paragraph in the message a heading, but I feel that it should not be one, nor does it hold the appearance of a heading.
+3. It alerts to a PDF file being present and wants to make sure it is an accessible document. I have chosen to ignore this alert as it is just a placeholder document used to facilitate the downloading process. 
+
+
+<img src="docs/screenshots/wave-form-feedback.png" alt="a screenshot showing the WAVE evaluation of page 4" width="500px">
 
