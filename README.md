@@ -328,4 +328,3 @@ WAVE shows three alerts for this page.
 
 
 <img src="docs/screenshots/wave-form-feedback.png" alt="a screenshot showing the WAVE evaluation of page 4" width="500px">
-
