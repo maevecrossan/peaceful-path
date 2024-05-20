@@ -47,14 +47,15 @@ I decided to omit the last opportunity as I knew more time would be needed to le
 I used the app Procreate on my iPad to draw and map out the basic structure of each page. I opted to use this app as I am very familiar with it, gives me complete creative freedom, and allows me to make adjustments very easily.
 
 *Figure 1 - Mobile Outline: index.html & explanation.html*
-![Mockup of homepage and explanation page](docs/screenshots/mobile-mockup-1.png)
+<img src="docs/screenshots/mobile-mockup-1.png" alt="Mockup of homepage and explanation page" height=400px>
 
 *Figure 2 - Mobile Outline: signup.html & form-feedback.html*
-![Mockup of signup and form feedback page](docs/screenshots/mobile-mockup-2.png)
+<img src="docs/screenshots/mobile-mockup-2.png" alt="Mockup of signup and form feedback page" height=400px>
 
 *Figure 3 - Screens 768px and Above Outline: homepage*
-![Mockup of signup and form feedback page](docs/screenshots/large-screen-mockup.png)
-*Note: Only this much of the larger screen mockup is drawn as the rest of the elements remain the same regardless of screensize*
+<img src="docs/screenshots/large-screen-mockup.png" alt="Mockup of signup and form feedback page" height=250px width=350px>
+
+>:memo: Note: Only this much of the larger screen mockup is drawn as the rest of the elements remain the same regardless of screensize
 
 ## Features
 
@@ -66,14 +67,61 @@ The colours I used are as follows:
 | Colour Names | Use |
 |-----|:-----:|
 | rgb (66, 84, 72) or #425448 | header and footer background |
-| Learn about mindfulness and its benefits | 5 |
-| Experience how this brand views mindfulness | 4 |
-| Choice to be updated on future services | 3 |
-| Experience how the company teaches mindfulness through various media | 3 |
+| rgb (255, 255, 255) or #ffffff | header font, the footer font and the (alternating) body text/div backgrounds |
+| rgb (110, 127, 115) or #6E7F73 | menu box-shadow |
+| rgb (131, 150, 137) or #839689 | main background |
+| rgb (85, 105, 91) or #55695B | (alternating) body text/div background |
 
 
-* rgb (66, 84, 72) or #425448 for the header and footer background.
-* rgb (255, 255, 255) or #ffffff for the header font, the footer font and the (alternating) body text/div backgrounds.
-* rgb (110, 127, 115) or #6E7F73 for the box-shadow.
-* rgb (131, 150, 137) or #839689 for the main background.
-* rgb (85, 105, 91) or #55695B for the (alternating) body text/div background.
+#### The Logo
+<img src="docs/screenshots/logo-screenshot.png" alt="screenshot of the website logo" height=60px>
+
+The logo remains in the top left corner of the header at all times, adjusting size depending on the screen size. I added the branch decorations from Font Awesome to give the help the logo stand out, to add visual interest, to add some space to the text, and to further emphasise the natural theme.
+
+The logo also acts as a clickable link to the homepage. I added this feature, despite having a link to the homepage in the navigation, as it is an expected UX feature. I do appreciate that one renders the other redundant, but I felt as though the home link in the navigation was important as it indicates where the user is on the site.
+
+
+#### Navigation
+
+<img src="docs/screenshots/desktop-nav-screenshot.png" alt="a screenshot of the navigation menu as seen on devices 768px and up" height=90px>
+
+The above navigation bar is seen on screens above 768px. It features three links displayed horizontally below the logo. The first link brings the user to the homepage, the second to an explanation page (_What is Mindfulness?_), and the third to a signup page (_Getting Started_). The links will be marked active with a white line under the relevant name.
+
+<img src="docs/screenshots/mobile-nav-screenshot.png" alt="a screenshot of the navigation menu as seen on devices 768px and below" height=90px>
+
+On screens smaller than 768px, the menu will drop down once the burger icon in the top right is tapped, vertically displaying the same three links mentioned above.
+Both menus feature a box shadow to separate it from the rest of the content.
+
+
+#### Footer
+
+<img src="docs/screenshots/footer-screenshot.png" alt="a screenshot of the footer featuring social media icons" width=400px>
+
+The footer sticks to the bottom of each page and houses four icons, each linking to a different social media site. These links only link to the homepage of the networks as Peaceful Path has no account on these sites. The links will open in new tabs. The styling of the footer matches that of the header for consistency. 
+
+#### Page Breakers
+
+<img src="docs/screenshots/page-divider-screenshot.png" alt="a scrrenshot of the page break icon" height=70px>
+
+I added a small lotus flower icon between the sections on each page to break up the text. I felt it was important to give some breathing room as there is a large amount of text on each page. 
+I chose this icon because of its popularity in the world of wellness.
+
+#### Typography
+
+I used a total of three fonts for this project, each imported from Google Fonts. The fonts used were:
+
+| Font Names | Use |
+|-----|:-----:|
+| Oswald | Logo/title |
+| Raleway | Slogan |
+| Roboto | Body Text |
+
+#### Centred Content
+
+Each block of content in this project lives in the centre of each page. I made this choice because I wanted the layout to remain consistent regardless of what device the user was using. 
+
+I also didn’t want to space elements too far apart and create awkward gaps that needed filling. I wanted to maintain a simplistic yet distinct appearance. I have included screenshots fo the content below.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="docs/screenshots/mobile-demo-screenshot.png" alt="screenshot of the homepage on a 320px device" height=400px>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="docs/screenshots/tablet-demo-screenshot.png" alt="screenshot of the homepage on a 768px device" height=400px>
+<img src="docs/screenshots/4k-demo-screenshot.png" alt="screenshot of the homepage on a 4k screen" width="500px">
+
