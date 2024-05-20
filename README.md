@@ -62,6 +62,16 @@ I used the app Procreate on my iPad to draw and map out the basic structure of e
 #### Colour Palette
 I used Procreate to create my colour scheme by pulling colours from the hero image. This helped me create a rough colour palette which I used until the project was about 80% done. The original colours were modified towards the end of the project to improve accessibility.
 The colours I used are as follows:
+
+| Colour Names | Use |
+|-----|:-----:|
+| rgb (66, 84, 72) or #425448 | header and footer background |
+| Learn about mindfulness and its benefits | 5 |
+| Experience how this brand views mindfulness | 4 |
+| Choice to be updated on future services | 3 |
+| Experience how the company teaches mindfulness through various media | 3 |
+
+
 * rgb (66, 84, 72) or #425448 for the header and footer background.
 * rgb (255, 255, 255) or #ffffff for the header font, the footer font and the (alternating) body text/div backgrounds.
 * rgb (110, 127, 115) or #6E7F73 for the box-shadow.
