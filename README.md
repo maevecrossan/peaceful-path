@@ -7,7 +7,7 @@ https://github.com/maevecrossan/peaceful-path
 
 ## **Introduction**
 ![Am I Responsive screenshot](docs/screenshots/am-i-responsive.png)
-Peaceful Path is a mindfulness website targeted towards those either starting or restarting their mindfulness journey. Its main purpose is to establish a relationship with its audience, promote its brand identity while finalising its services, provide essential information on mindfulness, and offer free a 30-day mindfulness guide. 
+Peaceful Path is a mindfulness website targeted towards those either starting or restarting their mindfulness journey. Its main purpose is to establish a relationship with its audience, promote its brand identity while finalising its services, provide essential information on mindfulness, and offer a free 30-day mindfulness guide. 
 
 This project was built with HTML and CSS.
 
@@ -16,10 +16,10 @@ This project was built with HTML and CSS.
 ## **UX**
 
 ### Target Audiences
-* Students, young professionals and working adults who would like to reduce stress levels and seek work-life balance. 
+* Students, young professionals, and working adults who would like to reduce stress levels and seek work-life balance. 
 * Parents/ carers who would like to make more time for themselves and reduce stress. 
 * Middle-aged and seniors who are facing a combination of career demands, family responsibilities, and potential health concerns, making mindfulness appealing for its holistic health benefits.
-* Mindfulness techniques and culture is found globally, meaning the value of mindfulness is acknowledged widely and appeals to an expansive audience.
+* Mindfulness techniques and culture are found globally, meaning the value of mindfulness is acknowledged widely and appeals to an expansive audience.
 
 ### User Stories
 As a user...
@@ -38,7 +38,7 @@ As a business...
 * I want to create a small gallery of original content to further engage customers and display our services.
 
 #### Opportunities
-Below is a table of opportunities based off user stories with corresponding importance and viability/feasibility ratings. 
+Below is a table of opportunities based on user stories with corresponding importance and viability/feasibility ratings. 
 
 | Opportunities | Importance | Viability/Feasibility |
 |-----|:-----:|:-----:|
@@ -48,10 +48,10 @@ Below is a table of opportunities based off user stories with corresponding impo
 | Choice to be updated on future services | 3 | 5 |
 | Experience how the company teaches mindfulness through various media | 3 | 1 |
 
-I decided to omit the last opportunity as I knew more time would be needed to learn how to create a gallery through which to display images, videos and audio. My main concern was making the display of the media match the rest of the website in terms of cleanliness and simplicity. I decided it was not a priority for this project, but would certainly be something I would have liked to have added, had there been enough time to learn, practice and execute it.
+I decided to omit the last opportunity as I knew more time would be needed to learn how to create a gallery through which to display images, videos, and audio. My main concern was ensuring that the media display matched the website's clean and simple design. Although it wasn't a priority for this project, I would have liked to include it if I had more time to learn, practice, and implement it properly.
 
 ### Wireframe Mockups
-I used the app Procreate on my iPad to draw and map out the basic structure of each page. I opted to use this app as I am very familiar with it, gives me complete creative freedom, and allows me to make adjustments very easily.
+I used the Procreate app on my iPad to draw and map out the basic structure of each page. I chose this app because I'm very familiar with it, it provides complete creative freedom, and it allows for easy adjustments.
 
 *Figure 1 - Mobile Outline: index.html & explanation.html*
 
@@ -65,13 +65,13 @@ I used the app Procreate on my iPad to draw and map out the basic structure of e
 
 <img src="docs/screenshots/large-screen-mockup.png" alt="Mockup of signup and form feedback page" height=250px width=350px>
 
->:memo: Note: Only this much of the larger screen mockup is drawn as the rest of the elements remain the same regardless of screensize
+>:memo: Note: Only this much of the larger screen mockup is drawn as the rest of the elements remain the same regardless of screen size.
 
 ## Features
 
 ### Common Features
 #### Colour Palette
-I used Procreate to create my colour scheme by pulling colours from the hero image. This helped me create a rough colour palette which I used until the project was about 80% done. The original colours were modified towards the end of the project to improve accessibility.
+I used Procreate to create my colour scheme by pulling colours from the hero image. This helped me create a rough colour palette which I used for a large duration of the project. The original colours were modified towards the end of the project to improve accessibility.
 The colours I used are as follows:
 
 | Colour Names | Use |
@@ -86,28 +86,28 @@ The colours I used are as follows:
 #### The Logo
 <img src="docs/screenshots/logo-screenshot.png" alt="screenshot of the website logo" height=60px>
 
-The logo remains in the top left corner of the header at all times, adjusting size depending on the screen size. I added the branch decorations from Font Awesome to give the help the logo stand out, to add visual interest, to add some space to the text, and to further emphasise the natural theme.
+The logo remains in the top left corner of the header at all times, adjusting its size depending on the screen size. I added the branch decorations from Font Awesome to make the logo stand out, to add visual interest, create some space around the text, and emphasise the natural theme.
 
-The logo also acts as a clickable link to the homepage. I added this feature, despite having a link to the homepage in the navigation, as it is an expected UX feature. I do appreciate that one renders the other redundant, but I felt as though the home link in the navigation was important as it indicates where the user is on the site.
+The logo also functions as a clickable link to the homepage. Even though there is already a link to the homepage in the navigation, I included it as it is an expected UX feature. While one of these links might seem redundant, the navigation link is important as it shows the user where they are on the site.
 
 
 #### Navigation
 
 <img src="docs/screenshots/desktop-nav-screenshot.png" alt="a screenshot of the navigation menu as seen on devices 768px and up" height=90px>
 
-The above navigation bar is seen on screens above 768px. It features three links displayed horizontally below the logo. The first link brings the user to the homepage, the second to an explanation page (_What is Mindfulness?_), and the third to a signup page (_Getting Started_). The links will be marked active with a white line under the relevant name.
+The above navigation bar is displayed on screens above 768px. It features three links displayed horizontally below the logo. The first link brings the user to the homepage, the second to an explanation page (_What is Mindfulness?_), and the third to a signup page (_Getting Started_). The links will be marked active with a white line under the relevant name.
 
 <img src="docs/screenshots/mobile-nav-screenshot.png" alt="a screenshot of the navigation menu as seen on devices 768px and below" height=90px>
 
-On screens smaller than 768px, the menu will drop down once the burger icon in the top right is tapped, vertically displaying the same three links mentioned above.
-Both menus feature a box shadow to separate it from the rest of the content.
+On screens smaller than 768px, the menu will drop down once the burger icon in the top right is tapped. The navigation links will be vertically displayed.
+Both menu styles feature a box shadow to separate and lift it from the rest of the content.
 
 
 #### Footer
 
 <img src="docs/screenshots/footer-screenshot.png" alt="a screenshot of the footer featuring social media icons" width=400px>
 
-The footer sticks to the bottom of each page and houses four icons, each linking to a different social media site. These links only link to the homepage of the networks as Peaceful Path has no account on these sites. The links will open in new tabs. The styling of the footer matches that of the header for consistency. 
+The footer sticks to the bottom of each page and houses four icons, each linking to a different social media site. These links only bring the user to the homepage of the networks, as Peaceful Path has no account on these sites. The links will open in new tabs. The styling of the footer matches that of the header for consistency. 
 
 #### Page Breakers
 
@@ -128,9 +128,9 @@ I used a total of three fonts for this project, each imported from Google Fonts.
 
 #### Centred Content
 
-Each block of content in this project lives in the centre of each page. I made this choice because I wanted the layout to remain consistent regardless of what device the user was using. 
+Each block of content in this project is centred on the page. This ensures the layout stays consistent across all devices.
 
-I also didn’t want to space elements too far apart and create awkward gaps that needed filling. I wanted to maintain a simplistic yet distinct appearance. I have included screenshots fo the content below.
+I also didn’t want to space elements too far apart and create awkward gaps that needed filling. I wanted to maintain a simplistic yet distinct appearance. I have included screenshots of the content below.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="docs/screenshots/mobile-demo-screenshot.png" alt="screenshot of the homepage on a 320px device" height=400px>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="docs/screenshots/tablet-demo-screenshot.png" alt="screenshot of the homepage on a 768px device" height=400px>
 <img src="docs/screenshots/4k-demo-screenshot.png" alt="screenshot of the homepage on a 4k screen" width="500px">
@@ -140,10 +140,9 @@ I also didn’t want to space elements too far apart and create awkward gaps tha
 #### The Hero Image
 <img src="docs/screenshots/hero-screenshot.png" alt="a screenshot of the hero image which show long grass with beads of water on the blades" width="400px">
 
-I used my own image for the hero at the top of the homepage. I chose it because of the array of colours it holds but also because of the mood it conveys. I wanted a picture that was calming, which encouraged the user to feel relaxed and to associate that feeling with the Peaceful Path brand.
+I used my own image for the hero at the top of the homepage. I chose it for its array of colors and the calming mood it conveys. I wanted a picture that makes users feel relaxed and associate that feeling with the Peaceful Path brand.
 
-It also acts as the inspiration for the colour scheme which in turn encourages users to link it to the brand.
-The hero image also acts as a clear indicator that the user is on/has returned to the homepage, as no other page has one.
+This image also inspired the color scheme, further reinforcing the brand identity. Additionally, the hero image serves as a clear indicator that the user is on or has returned to the homepage, as no other page features it.
 
 #### The Slogan
 
@@ -165,13 +164,13 @@ This section is broken into the following three subsections:
 
 The sections are differentiated by colour, alternating between green-text-white-background or white-text-green-background. This is to add decoration and depth to the page, all while keeping it simplistic.
 
-Each section is wrapped in its own box for clarity.
+Each section is wrapped in a box for clarity.
 The heading for each subsection is underlined to separate it from the paragraph below.
 
-The sections are further separated with the lotus flower icon. 
+The sections are further separated by the lotus flower icon. 
 The content of the page remains in a column but resizes depending on the screen size. To combat excessive growth on very large screens, a max width was set to facilitate a more enjoyable reading experience. 
 
-As previously mentioned, I decided to omit additional images and decoration as I wanted to keep the focus on the text and prevent cognitive overload.
+As previously mentioned, I chose to omit additional images and decoration as I wanted to keep the focus on the text and prevent cognitive overload.
 
 ### Page 2: What is Mindfulness?
 
@@ -183,10 +182,10 @@ Page two is broken into two subsections:
 
 The purpose of this page is to efficiently deliver essential information to the user. 
 
-The sections have different widths to add some visual dynamics, and to ensure the list is quick and easy to read.
-I chose to display the benefits in an unordered list and marked each point with an icon to separate the text while keeping it concise. I feel as though the icons add a touch of personality and visual interest. 
+The sections have different widths to add visual dynamics, and to ensure the list is quick and easy to read.
+I chose to display the benefits in an unordered list, marking each point with an icon to separate the text while keeping it concise. The icons add a touch of personality and visual interest. 
 
-As seen on the homepage, the sections are separated by the lotus icons. The content of the page also remains in a column and resizes depending on the screen size. 
+As on the homepage, the sections are separated by lotus icons. The content remains in a column and resizes depending on the screen size. 
 
 ### Page 3: Getting Started
 
@@ -198,13 +197,13 @@ The form is just a mock form and uses the GET method.
 Each section of the form is required except for the checkbox.
 Filling out the form and submitting it will bring the user to a fourth page.
 
-Similarly to the first two pages, content of this page will also remain in a column and will resize depending on the screen size. It is also kept intentionally simplistic as I wanted the form to be the main focus.
+Similarly to the first two pages, the content of this page will remain in a column and will resize depending on the screen size. It is kept intentionally simplistic so the form is the main focus.
 
 ### Page 4: Form Feedback
 
 <img src="docs/screenshots/form-feedback-screenshot.png" alt="A screenshot of the form feedback message with a link to download the guide" width="400px">
 
-The form feedback page includes a thank you message and a clickable link. The link will initiate the immediate download on the 30-day guide to the user’s device. 
+The form feedback page includes a thank you message and a clickable link. The link will initiate the immediate download of the 30-day guide to the user’s device. 
 
 To prevent the user from needing to use the forward/back arrows the browser provides, a ‘Return to Homepage’ button was added above the footer.
 
@@ -212,11 +211,11 @@ No unnecessary clutter was added so that the user knows that all actions on the 
 
 ## Testing
 
-I tested my project throughout development. I have divided my testing into two sections below: developmental testing and post developmental testing.
+I tested my project throughout development. I have divided my testing into two sections below: developmental testing and post-developmental testing.
 
 ### Developmental Testing
 
-I conducted testing throughout all stages of development. My initial testing was done using Chrome devtools to make sure my HTML content was showing up correctly. 
+I conducted testing throughout all stages of development. My initial testing was done using Chrome DevTools to check my HTML content was showing up correctly. 
 
 Once I confirmed my content was being displayed, I took the mobile-first approach. I designed my website for mobiles first, only moving onto larger screens when I was 80% completed with the mobile design.
 
@@ -228,7 +227,7 @@ Testing was done across multiple devices, but primarily:
 * iPad Pro: 2732px x 2048px
 * iPad 14 Pro Max: 2796px x 1290px
 
-I used four different browsers and their devtools on the above devices to view and test my website:
+I used four different browsers and their DevTools on the above devices to view and test my website:
 * Chrome
 * Safari
 * Firefox
@@ -276,21 +275,21 @@ https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fmaevecrossan.githu
 
 
 CSS
-No errors were found when checked with the W3C CSS validator.
+No errors were found when checked with the W3C CSS Validator.
 
 https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmaevecrossan.github.io%2Fpeaceful-path%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
 
 <img src="docs/screenshots/w3c-css.png" alt="a screenshot of the html checker showing now errors for the CSS" width="400px">
 
 ##### Contrast Grid
-I used the contrast grid to enure by colour combinations would allow for an accessible experience. 
+I used the contrast grid to enure my colour combinations would allow for an accessible experience. 
 
 As previously mentioned, the grid revealed that two of my original colours were not suitable. Below shows the final colours used for the project. All used combinations received an AA or AAA rating. 
 
 <img src="docs/screenshots/contrast-grid.png" alt="a screenshot showing the different colours used in the project in a comparative grid format" width="400px">
 
 ##### Lighthouse
-I used Lighthouse in devtools to test my website on both mobiles and desktop.
+I used Lighthouse in Chrome DevTools to test my website on mobile and desktop.
 Below are the results for desktop:
 
 <img src="docs/screenshots/lighthouse-homepage-desktop.png" alt="a screenshot of lightouse results for the homepage (desktop)" width="500px">
@@ -312,9 +311,7 @@ Below are the Lighthouse results for mobile:
 <img src="docs/screenshots/lightouse-feedback-mobile.png" alt="a screenshot of lightouse results for page 4 (mobile)" width="500px">
 
 ##### WAVE Evaluation Tool
-I also used WAVE to test my accessibility. There were a couple of things flagged by wave, each of which is discussed above the relevant screenshot where necessary.
-
-As previously mentioned, the logo links to the homepage, therefore WAVE has marked the home link in the navigation redundant. This alert is found on each page, but I chose to include both links regardless.
+I also used WAVE to test my accessibility. There were a couple of things flagged by WAVE, each discussed above the relevant screenshot.
 
 Page 1: The Homepage
 
@@ -342,9 +339,9 @@ WAVE shows three alerts for this page.
 
 ## Bugs and Fixes
 
-Over the course of developing this project I encountered a variety of bugs.
+While developing this project I encountered a variety of bugs.
 
-1. The first, and most common, bug I faced was with my header. As there were multiple elements in the header, modifying one property would cause the rest of the properties to riot.
+1. The first and most common bug I faced was in my header. As there were multiple elements in the header, modifying one property would cause the rest of the properties to riot.
     * In a few instances, both the menu and nav element had a box shadow. They appeared disjointed and off-centre from each other. After a while, I saw this was caused by different values I had set for the header in the media queries. It was an easy fix once I learned to apply the more general styles to the container div.
     * Another issue I had with the header was it not showing up on the form feedback page. I found that some of the HTML was missing from the page, and fixed the bug by simply copying the header info from the index.html page (and removing the active class).
 
@@ -352,10 +349,10 @@ Over the course of developing this project I encountered a variety of bugs.
     * I fixed this by adding display: flex, justify-content: center, align-items: center to the parent div.
 
 3. Another issue I faced was the effect my hero image size had on the performance. The initial version of the photo I uploaded was a PNG fresh out of Adobe Lightroom, so it was quite large and had a lot of metadata.
-    * Through trial and error, I found that a compressed webp file was the most suitable and had a positive effect on the performance score given by Lighthouse. 
+    * Through trial and error, I found that a compressed .webp file was the most suitable and had a positive effect on the performance score given by Lighthouse. 
 
 4. The initial colours I chose for my project had to be modified towards the end of development when the colours were tested with the contrast grid. 
-    * A lighter shade (#C4D3C1) was originally chosen for the header and footer background. The white currently used was originally an off-white colour (#F2F1E6). However, these original colours did not contrast enough against one another, so they were swapped out for stronger colours.
+    * A lighter shade (#C4D3C1) was initially chosen for the header and footer background. The white currently used was originally an off-white colour (#F2F1E6). However, these original colours did not contrast enough against one another, so they were swapped out for stronger colours.
     * The poorly contrasting colours can be seen in the box outlined in blue.
     <img src="docs/screenshots/replaced-colours.png" alt="a screenshot from contrast grid demonstrating poor contrast between two colours" width="500px">
 
@@ -378,7 +375,7 @@ The link to the project repository: https://github.com/maevecrossan/peaceful-pat
 ### Content
 * The written content for each section was edited by [ChatGPT](https://chatgpt.com/).
 * The content of the pdf file was generated exclusively by [ChatGPT](https://chatgpt.com/).
-* [w3schools.com](https://www.w3schools.com/) was used to deepen my understanding on flexbox, as well as to answer general questions I had. 
+* [w3schools.com](https://www.w3schools.com/) was used to deepen my understanding of Flexbox, as well as to answer general questions I had. 
 * I borrowed HTML and CSS from [css-tricks.com](https://css-tricks.com/inclusively-hidden/) to fix an accessibility error identified by WAVE. 
 (Article sent to me by my mentor [David Bowers](https://github.com/dnlbowers/).)
 * The icons used beside the logo, to divide the text, in the footer and to mark the benefits list were all sourced from [Font Awesome](https://fontawesome.com/) .​
@@ -390,7 +387,7 @@ The link to the project repository: https://github.com/maevecrossan/peaceful-pat
 
 ### Testing Resources
 
-The following were used for testing (during and post development):
+The following were used for testing (during and post-development):
 
 * [WAVE Evaluation Tool (Chrome Extension)](https://chromewebstore.google.com/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh)
 * [W3C Markup Validation Service (HTML)](https://validator.w3.org/)
@@ -398,7 +395,7 @@ The following were used for testing (during and post development):
 * [Am I Responsive?](https://ui.dev/amiresponsive)
 * [Contrast Grid](https://contrast-grid.eightshapes.com/)
 
-### Thank Yous and Honorable Mentions
+### Acknowledgements
 
 * Firstly, I'd like to thank [Stephen Dalton](https://github.com/stephen-dalton) for introducing me to the world of coding and for letting me pester him with questions. Thank you for your time and patience.
 
@@ -406,4 +403,4 @@ The following were used for testing (during and post development):
 
 * Thirdly, I'd like to thank my family. Without their support and ✨aggressive✨ motivation, I would likely have talked myself out of this career change. 
 
-* Lastly, I'd like to thank you for making it to the end of my README! I hope your enjoyed my project. 
+* Lastly, I'd like to thank you for making it to the end of my README! I hope you enjoyed my project. 
