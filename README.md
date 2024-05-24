@@ -214,6 +214,18 @@ To prevent the user from needing to use the forward/back arrows the browser prov
 
 No unnecessary clutter was added so that the user knows that all actions on the page have been completed. The feedback message will resize depending on the device depending on the screen size.
 
+## Future Developments
+
+Below are a few features I would like to add in the future once I have both the time and knowledge.
+
+1. Firstly, I would like to add a gallery for media. I feel this would be a huge cornerstone for the business. An extensive media collection would help the business and website fulfill its purpose effectively. A gallery was simply an unrealistic opportunity given the timeframe for this project, but one that would add great value to the website.
+
+2. Secondly, given that a library of original content can be created, I feel that a subscription service would suit this type business.
+
+3. Thirdly, assuming the above two developments can be executed, I think a 'dark mode' would be necessary. This would  allow people to comfortably use the website at night or early in the morning.
+
+4. Lastly, I would like to add some animations and flourishes to the website once I fine-tune my skills.
+
 ## Testing
 
 I tested my project throughout development. I have divided my testing into two sections below: developmental testing and post-developmental testing.
