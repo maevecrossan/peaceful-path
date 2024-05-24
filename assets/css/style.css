@@ -240,6 +240,11 @@ header a {
     border-style: none;
 }
 
+#updates {
+    height: 15px;
+    width: 15px;
+}
+
 /* Form Feedback Page */
 #feedback-container {
     display: flex;
