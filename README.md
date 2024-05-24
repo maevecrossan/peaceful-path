@@ -1,12 +1,15 @@
 # **Peaceful Path**
-The link to the live website: 
-https://maevecrossan.github.io/peaceful-path/index.html 
 
 ## **Introduction**
-![Am I Responsive screenshot](docs/screenshots/am-i-responsive.png)
+
 Peaceful Path is a mindfulness website targeted towards those either starting or restarting their mindfulness journey. Its main purpose is to establish a relationship with its audience, promote its brand identity while finalising its services, provide essential information on mindfulness, and offer a free 30-day mindfulness guide. 
 
 This project was built with HTML and CSS.
+
+The link to the live website: 
+https://maevecrossan.github.io/peaceful-path/index.html 
+
+![Am I Responsive screenshot](docs/screenshots/am-i-responsive.png)
 
 > **Note:** Please cmd-click (Mac) or ctrl-click(Windows) on any links to open them in a new tab.
 
