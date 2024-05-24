@@ -11,7 +11,7 @@ Peaceful Path is a mindfulness website targeted towards those either starting or
 
 This project was built with HTML and CSS.
 
-> **Note:** Please cmnd-click (Mac) or ctrl-click(Windows) on any links to open them in a new tab.
+> **Note:** Please cmd-click (Mac) or ctrl-click(Windows) on any links to open them in a new tab.
 
 ## **UX**
 
