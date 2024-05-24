@@ -2,9 +2,6 @@
 The link to the live website: 
 https://maevecrossan.github.io/peaceful-path/index.html 
 
-The link to the project repository: 
-https://github.com/maevecrossan/peaceful-path 
-
 ## **Introduction**
 ![Am I Responsive screenshot](docs/screenshots/am-i-responsive.png)
 Peaceful Path is a mindfulness website targeted towards those either starting or restarting their mindfulness journey. Its main purpose is to establish a relationship with its audience, promote its brand identity while finalising its services, provide essential information on mindfulness, and offer a free 30-day mindfulness guide. 
@@ -55,15 +52,15 @@ I used the Procreate app on my iPad to draw and map out the basic structure of e
 
 *Figure 1 - Mobile Outline: index.html & explanation.html*
 
-<img src="docs/screenshots/mobile-mockup-1.png" alt="Mockup of homepage and explanation page" height=400px>
+![Mockup of homepage and explanation page](docs/screenshots/mobile-mockup-1.png)
 
 *Figure 2 - Mobile Outline: signup.html & form-feedback.html*
 
-<img src="docs/screenshots/mobile-mockup-2.png" alt="Mockup of signup and form feedback page" height=400px>
+![Mockup of signup and form feedback page](docs/screenshots/mobile-mockup-2.png)
 
 *Figure 3 - Screens 768px and Above Outline: homepage*
 
-<img src="docs/screenshots/large-screen-mockup.png" alt="Mockup of signup and form feedback page" height=250px width=350px>
+![Mockup of signup and form feedback page](docs/screenshots/large-screen-mockup.png) 
 
 >:memo: Note: Only this much of the larger screen mockup is drawn as the rest of the elements remain the same regardless of screen size.
 
@@ -84,7 +81,8 @@ The colours I used are as follows:
 
 
 #### The Logo
-<img src="docs/screenshots/logo-screenshot.png" alt="screenshot of the website logo" height=60px>
+
+![screenshot of the website logo](docs/screenshots/logo-screenshot.png)
 
 The logo remains in the top left corner of the header at all times, adjusting its size depending on the screen size. I added the branch decorations from Font Awesome to make the logo stand out, to add visual interest, create some space around the text, and emphasise the natural theme.
 
@@ -93,11 +91,11 @@ The logo also functions as a clickable link to the homepage. Even though there i
 
 #### Navigation
 
-<img src="docs/screenshots/desktop-nav-screenshot.png" alt="a screenshot of the navigation menu as seen on devices 768px and up" height=90px>
+![a screenshot of the navigation menu as seen on devices 768px and up](docs/screenshots/desktop-nav-screenshot.png)
 
 The above navigation bar is displayed on screens above 768px. It features three links displayed horizontally below the logo. The first link brings the user to the homepage, the second to an explanation page (_What is Mindfulness?_), and the third to a signup page (_Getting Started_). The links will be marked active with a white line under the relevant name.
 
-<img src="docs/screenshots/mobile-nav-screenshot.png" alt="a screenshot of the navigation menu as seen on devices 768px and below" height=90px>
+![a screenshot of the navigation menu as seen on devices 768px and below](docs/screenshots/mobile-nav-screenshot.png)
 
 On screens smaller than 768px, the menu will drop down once the burger icon in the top right is tapped. The navigation links will be vertically displayed.
 Both menu styles feature a box shadow to separate and lift it from the rest of the content.
@@ -105,13 +103,13 @@ Both menu styles feature a box shadow to separate and lift it from the rest of t
 
 #### Footer
 
-<img src="docs/screenshots/footer-screenshot.png" alt="a screenshot of the footer featuring social media icons" width=400px>
+![a screenshot of the footer featuring social media icons](docs/screenshots/footer-screenshot.png)
 
 The footer sticks to the bottom of each page and houses four icons, each linking to a different social media site. These links only bring the user to the homepage of the networks, as Peaceful Path has no account on these sites. The links will open in new tabs. The styling of the footer matches that of the header for consistency. 
 
 #### Page Breakers
 
-<img src="docs/screenshots/page-divider-screenshot.png" alt="a scrrenshot of the page break icon" height=70px>
+![a scrrenshot of the page break icon](docs/screenshots/page-divider-screenshot.png)
 
 I added a small lotus flower icon between the sections on each page to break up the text. I felt it was important to give some breathing room as there is a large amount of text on each page. 
 I chose this icon because of its popularity in the world of wellness.
@@ -132,13 +130,17 @@ Each block of content in this project is centred on the page. This ensures the l
 
 I also didn’t want to space elements too far apart and create awkward gaps that needed filling. I wanted to maintain a simplistic yet distinct appearance. I have included screenshots of the content below.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="docs/screenshots/mobile-demo-screenshot.png" alt="screenshot of the homepage on a 320px device" height=400px>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="docs/screenshots/tablet-demo-screenshot.png" alt="screenshot of the homepage on a 768px device" height=400px>
-<img src="docs/screenshots/4k-demo-screenshot.png" alt="screenshot of the homepage on a 4k screen" width="500px">
+![screenshot of the homepage on a 320px device](docs/screenshots/mobile-demo-screenshot.png)
+
+![screenshot of the homepage on a 768px device](docs/screenshots/tablet-demo-screenshot.png)
+
+![screenshot of the homepage on a 4K screen](docs/screenshots/4k-demo-screenshot.png)
 
 ### Page 1: The Homepage
 
 #### The Hero Image
-<img src="docs/screenshots/hero-screenshot.png" alt="a screenshot of the hero image which show long grass with beads of water on the blades" width="400px">
+
+![a screenshot of the hero image which show long grass with beads of water on the blades](docs/screenshots/hero-screenshot.png)
 
 I used my own image for the hero at the top of the homepage. I chose it for its array of colors and the calming mood it conveys. I wanted a picture that makes users feel relaxed and associate that feeling with the Peaceful Path brand.
 
@@ -146,7 +148,7 @@ This image also inspired the color scheme, further reinforcing the brand identit
 
 #### The Slogan
 
-<img src="docs/screenshots/slogan-screenshot.png" alt="a screenshot of the slogan above the hero image, reading ;let's grow together'" width="300px">
+![a screenshot of the slogan above the hero image, reading ;let's grow together](docs/screenshots/slogan-screenshot.png)
 
 I chose to add a slogan to lay on top of the hero image. I felt this added some personality and engaged the user more so than the image alone would do.
 It acts as a note of encouragement and as a challenge to the user, as well as evokes the feeling of community.
@@ -155,7 +157,7 @@ I added an opaque background of green to make it more legible and noticeable. It
 
 #### The Main Section: About Us
 
-<img src="docs/screenshots/about-us-screenshot.png" alt="a screenshot of the about section on the home page" width="400px">
+![a screenshot of the about section on the home page](docs/screenshots/about-us-screenshot.png)
 
 This section is broken into the following three subsections:
 * Welcome to Peaceful Path!
@@ -174,7 +176,7 @@ As previously mentioned, I chose to omit additional images and decoration as I w
 
 ### Page 2: What is Mindfulness?
 
-<img src="docs/screenshots/what-is-mindfulness-screenshot.png" alt="a screenshot of the 'what is minfulness page'" width="400px">
+![a screenshot of the 'what is minfulness page](docs/screenshots/what-is-mindfulness-screenshot.png)
 
 Page two is broken into two subsections:
 * What is mindfulness?
@@ -189,7 +191,7 @@ As on the homepage, the sections are separated by lotus icons. The content remai
 
 ### Page 3: Getting Started
 
-<img src="docs/screenshots/getting-started-screenshot.png" alt="a screenshot of the 'getting started page' with a form" width="400px">
+![a screenshot of the 'getting started page' with a form](docs/screenshots/getting-started-screenshot.png)
 
 This page encourages the user to download the 30-day mindfulness guide and to sign up for updates if they so wish.
 The form is just a mock form and uses the GET method.
@@ -201,7 +203,7 @@ Similarly to the first two pages, the content of this page will remain in a colu
 
 ### Page 4: Form Feedback
 
-<img src="docs/screenshots/form-feedback-screenshot.png" alt="A screenshot of the form feedback message with a link to download the guide" width="400px">
+![A screenshot of the form feedback message with a link to download the guide](docs/screenshots/form-feedback-screenshot.png)
 
 The form feedback page includes a thank you message and a clickable link. The link will initiate the immediate download of the 30-day guide to the user’s device. 
 
@@ -250,65 +252,64 @@ Page 1: Homepage (index.html)
 
 https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fmaevecrossan.github.io%2Fpeaceful-path%2Findex.html
 
-<img src="docs/screenshots/w3c-homepage.png" alt="a screenshot of the html checker showing now errors for the homepage" width="400px">
+![a screenshot of the html checker showing now errors for the homepage](docs/screenshots/w3c-homepage.png)
 
 
 Page 2: What is Mindfulness? (explanation.html)
 
 https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fmaevecrossan.github.io%2Fpeaceful-path%2Fexplanation.html
 
-<img src="docs/screenshots/w3c-explanation.png" alt="a screenshot of the html checker showing now errors for the second page" width="400px">
+![a screenshot of the html checker showing now errors for the second page](docs/screenshots/w3c-explanation.png)
 
 
 Page 3: Getting Started (signup.html)
 
 https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fmaevecrossan.github.io%2Fpeaceful-path%2Fsignup.html
 
-<img src="docs/screenshots/w3c-signup.png" alt="a screenshot of the html checker showing now errors for the third page" width="400px">
+![a screenshot of the html checker showing now errors for the third page](docs/screenshots/w3c-signup.png)
 
 
 Page 4: Form Feedback (form-feedback.html)
 
 https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fmaevecrossan.github.io%2Fpeaceful-path%2Fform-feedback.html%3Ffirst-name%3DJane%26last-name%3DDoe%26email-address%3Djanedoe%2540gmail.com
 
-<img src="docs/screenshots/w3c-form-feedback.png" alt="a screenshot of the html checker showing now errors for the fourth page" width="400px">
-
+![a screenshot of the html checker showing now errors for the fourth page](docs/screenshots/w3c-form-feedback.png)
 
 CSS
 No errors were found when checked with the W3C CSS Validator.
 
 https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmaevecrossan.github.io%2Fpeaceful-path%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
 
-<img src="docs/screenshots/w3c-css.png" alt="a screenshot of the html checker showing now errors for the CSS" width="400px">
+![a screenshot of the html checker showing now errors for the CSS](docs/screenshots/w3c-css.png)
 
 ##### Contrast Grid
 I used the contrast grid to enure my colour combinations would allow for an accessible experience. 
 
 As previously mentioned, the grid revealed that two of my original colours were not suitable. Below shows the final colours used for the project. All used combinations received an AA or AAA rating. 
 
-<img src="docs/screenshots/contrast-grid.png" alt="a screenshot showing the different colours used in the project in a comparative grid format" width="400px">
+![a screenshot showing the different colours used in the project in a comparative grid format](docs/screenshots/contrast-grid.png)>
 
 ##### Lighthouse
 I used Lighthouse in Chrome DevTools to test my website on mobile and desktop.
 Below are the results for desktop:
 
-<img src="docs/screenshots/lighthouse-homepage-desktop.png" alt="a screenshot of lightouse results for the homepage (desktop)" width="500px">
+![a screenshot of lighthouse results for the homepage (desktop)](docs/screenshots/lighthouse-homepage-desktop.png)
 
-<img src="docs/screenshots/lighthouse-explanation-desktop.png" alt="a screenshot of lightouse results for page two (desktop)" width="500px">
+![a screenshot of lighthouse results for page two (desktop)](docs/screenshots/lighthouse-explanation-desktop.png)
 
-<img src="docs/screenshots/lighthouse-signup-desktop.png" alt="a screenshot of lightouse results for page three (desktop)" width="500px">
+![a screenshot of lighthouse results for page three (desktop)](docs/screenshots/lighthouse-signup-desktop.png)
 
-<img src="docs/screenshots/lighthouse-form-feedback-desktop.png" alt="a screenshot of lightouse results for page four (desktop)" width="500px">
+![a screenshot of lighthouse results for page four (desktop)](docs/screenshots/lighthouse-form-feedback-desktop.png)
 
 Below are the Lighthouse results for mobile:
 
-<img src="docs/screenshots/lighthouse-homepage-mobile.png" alt="a screenshot of lightouse results for page 1 (mobile)" width="500px">
+![a screenshot of lighthouse results for page 1 (mobile)](docs/screenshots/lighthouse-homepage-mobile.png)
 
-<img src="docs/screenshots/lighthouse-explanation-mobile.png" alt="a screenshot of lightouse results for page 2 (mobile)" width="500px">
+![a screenshot of lighthouse results for page 2 (mobile)](docs/screenshots/lighthouse-explanation-mobile.png)
 
-<img src="docs/screenshots/lighthouse-signup-mobile.png" alt="a screenshot of lightouse results for page 3 (mobile)" width="500px">
+![a screenshot of lighthouse results for page 3 (mobile)](docs/screenshots/lighthouse-signup-mobile.png)
 
-<img src="docs/screenshots/lightouse-feedback-mobile.png" alt="a screenshot of lightouse results for page 4 (mobile)" width="500px">
+![a screenshot of lighthouse results for page 4 (mobile)](docs/screenshots/lightouse-feedback-mobile.png)
 
 ##### WAVE Evaluation Tool
 I also used WAVE to test my accessibility. There were a couple of things flagged by WAVE, each discussed above the relevant screenshot.
@@ -317,15 +318,15 @@ Page 1: The Homepage
 
 As previously mentioned, the logo links to the homepage, therefore WAVE has marked the home link in the navigation redundant. This alert is found on each page, but I chose to include both links regardless.
 
-<img src="docs/screenshots/wave-homepage.png" alt="a screenshot showing the WAVE evaluation of page 1" width="500px">
+![a screenshot showing the WAVE evaluation of page 1](docs/screenshots/wave-homepage.png)
 
 Page 2: What is Mindfulness?
 
-<img src="docs/screenshots/wave-explanation.png" alt="a screenshot showing the WAVE evaluation of page 2" width="500px">
+![a screenshot showing the WAVE evaluation of page 2](docs/screenshots/wave-explanation.png)
 
 Page 3: Getting Started
 
-<img src="docs/screenshots/wave-signup.png" alt="a screenshot showing the WAVE evaluation of page 3" width="500px">
+![a screenshot showing the WAVE evaluation of page 3](docs/screenshots/wave-signup.png)
 
 Page 4: Form Feedback
 
@@ -334,8 +335,7 @@ WAVE shows three alerts for this page.
 2. It suggests making the second paragraph in the message a heading, but I feel that it should not be one, nor does it hold the appearance of a heading.
 3. It alerts to a PDF file being present and wants to make sure it is an accessible document. I have chosen to ignore this alert as it is just a placeholder document used to facilitate the downloading process. 
 
-
-<img src="docs/screenshots/wave-form-feedback.png" alt="a screenshot showing the WAVE evaluation of page 4" width="500px">
+![a screenshot showing the WAVE evaluation of page 4](docs/screenshots/wave-form-feedback.png)
 
 ## Bugs and Fixes
 
@@ -354,7 +354,7 @@ While developing this project I encountered a variety of bugs.
 4. The initial colours I chose for my project had to be modified towards the end of development when the colours were tested with the contrast grid. 
     * A lighter shade (#C4D3C1) was initially chosen for the header and footer background. The white currently used was originally an off-white colour (#F2F1E6). However, these original colours did not contrast enough against one another, so they were swapped out for stronger colours.
     * The poorly contrasting colours can be seen in the box outlined in blue.
-    <img src="docs/screenshots/replaced-colours.png" alt="a screenshot from contrast grid demonstrating poor contrast between two colours" width="500px">
+    ![a screenshot from contrast grid demonstrating poor contrast between two colours](docs/screenshots/replaced-colours.png)
 
 
 ## Deployment
@@ -367,8 +367,6 @@ This project was deployed to GitHub pages. The steps I took were as follows:
 5. Save your choices and wait for the deployment to load.
 
 The link to the live website: https://maevecrossan.github.io/peaceful-path/index.html 
-The link to the project repository: https://github.com/maevecrossan/peaceful-path 
-
 
 ## Credits
 
