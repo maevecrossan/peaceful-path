@@ -224,6 +224,7 @@ header a {
     font-size: 130%;
 }
 
+
 #signup-form p {
     border-bottom: 2px solid rgb(255, 255, 255);
     text-align: center;
@@ -231,11 +232,11 @@ header a {
 }
 
 #form-button {
-    margin-top: 20px;
+    margin: 30px 0px 15px 0px;
     padding: 15px 26px;
     background-color: rgb(255, 255, 255);
     color: rgb(85, 105, 91);
-    font-size: 90%;
+    font-size: 100%;
     text-align: center;
     border-style: none;
 }
@@ -243,6 +244,7 @@ header a {
 #updates {
     height: 15px;
     width: 15px;
+    padding: 20px;
 }
 
 /* Form Feedback Page */
