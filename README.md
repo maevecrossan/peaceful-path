@@ -302,7 +302,7 @@ I used the contrast grid to enure my colour combinations would allow for an acce
 
 As previously mentioned, the grid revealed that two of my original colours were not suitable. Below shows the final colours used for the project. All used combinations received an AA or AAA rating. 
 
-![a screenshot showing the different colours used in the project in a comparative grid format](docs/screenshots/contrast-grid.png)>
+![a screenshot showing the different colours used in the project in a comparative grid format](docs/screenshots/contrast-grid.png)
 
 ##### Lighthouse
 I used Lighthouse in Chrome DevTools to test my website on mobile and desktop.
